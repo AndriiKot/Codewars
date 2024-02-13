@@ -4,7 +4,6 @@ require 'set'
 def create_branches(depth = 1,path  = './',git_ignore_folders = nil,checkout_branch = nil)
     return if depth == 0
     git_ignore_folders ||= [].to_set
-    p checkout_branch;gets
     if checkout_branch 
         system(`git checkout #{checkout_branch}`)
     end
@@ -39,9 +38,9 @@ def create_branches(depth = 1,path  = './',git_ignore_folders = nil,checkout_bra
         cmd = 'git branch '
             cmd += "#{branch}"
             unless exists_branches.include? (branch)
-                system(`#{cmd}`) 
-                # system(`git push -u origin #{branch}`)
-                system(`git push`)
+                # system(`#{cmd}`) 
+                # # system(`git push -u origin #{branch}`)
+                # system(`git push`)
             end
     end
     folders.size.times do |i, d = depth,p = path|
