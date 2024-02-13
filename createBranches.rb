@@ -1,9 +1,14 @@
 require 'open3'
 require 'set'
 
-def create_branches(depth = 1,path  = './',git_ignore_folders = nil)
+def create_branches(depth = 1,path  = './',git_ignore_folders = nil,checkout_branch = nil)
     return if depth == 0
     git_ignore_folders ||= [].to_set
+    p checkout_branch;gets
+    if checkout_branch 
+        system(`git checkout #{checkout_branch}`)
+    end
+    gets
     Dir.entries(path).each do |el|         
         if el.match?('.gitignore')
             File.foreach(File.join(path,el)) do |line|
@@ -31,18 +36,18 @@ def create_branches(depth = 1,path  = './',git_ignore_folders = nil)
         cmd = 'echo git branch '
             cmd += "#{branch}"
             unless exists_branches.include? (branch)
-                p "Branch: #{branch} exits!"
-                system(`#{cmd}`) 
+                # system(`#{cmd}`) 
+                # system(`git push -u origin #{branch}`)
             end
-            system(`git push -u origin #{branch}`)
     end
     folders.size.times do |i, d = depth,p = path|
         children = File.join(p,folders[i])
+        checkout_branch = folders[i]
         # next if children.match?('.git')
-        create_branches(d - 1,children,git_ignore_folders) 
+        create_branches(d - 1,children,git_ignore_folders,checkout_branch) 
     end
 end
  
-create_branches(1)
+create_branches(2)
 
 
