@@ -8,7 +8,13 @@ def create_branches(depth = 1,path  = './',git_ignore_folders = nil,checkout_bra
     if checkout_branch 
         system(`git checkout #{checkout_branch}`)
     end
+
+    stdout, stderr, status = Open3.capture3('git branch')
+    str = stdout.encode('UTF-8')
+    exists_branches = str.split("\n").map(&:strip)
+    p exists_branches
     gets
+
     Dir.entries(path).each do |el|         
         if el.match?('.gitignore')
             File.foreach(File.join(path,el)) do |line|
@@ -27,17 +33,15 @@ def create_branches(depth = 1,path  = './',git_ignore_folders = nil,checkout_bra
         end
     end
 
-    stdout, stderr, status = Open3.capture3('git branch')
-    str = stdout.encode('UTF-8')
-    exists_branches = str.split("\n").map(&:strip)
     
     return if folders.size == 0
     folders.each do |branch|
-        cmd = 'echo git branch '
+        cmd = 'git branch '
             cmd += "#{branch}"
             unless exists_branches.include? (branch)
-                # system(`#{cmd}`) 
+                system(`#{cmd}`) 
                 # system(`git push -u origin #{branch}`)
+                system(`git push`)
             end
     end
     folders.size.times do |i, d = depth,p = path|
