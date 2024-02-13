@@ -3,16 +3,12 @@ require 'set'
 
 def create_branches(depth = 1,path  = './',git_ignore_folders = nil,checkout_branch = nil)
     return if depth == 0
+
     git_ignore_folders ||= [].to_set
-    if checkout_branch 
-        system(`git checkout #{checkout_branch}`)
-    end
 
     stdout, stderr, status = Open3.capture3('git branch')
     str = stdout.encode('UTF-8')
     exists_branches = str.split("\n").map(&:strip)
-    p exists_branches
-    gets
 
     Dir.entries(path).each do |el|         
         if el.match?('.gitignore')
@@ -21,6 +17,7 @@ def create_branches(depth = 1,path  = './',git_ignore_folders = nil,checkout_bra
                 end
          end            
    end
+
     folders = Dir.entries(path).reject do |el| 
         children_path = File.join(path,el)    
         begin
@@ -32,21 +29,19 @@ def create_branches(depth = 1,path  = './',git_ignore_folders = nil,checkout_bra
         end
     end
 
-    
     return if folders.size == 0
     folders.each do |branch|
-        cmd = 'git branch '
-            cmd += "#{branch}"
+        branch = checkout_branch ? "#{checkout_branch}_#{branch}" :  branch
+        cmd = "git branch #{branch}"
             unless exists_branches.include? (branch)
-                # system(`#{cmd}`) 
-                # # system(`git push -u origin #{branch}`)
-                # system(`git push`)
+                system(`#{cmd}`) 
+                # system(`git push -u origin #{branch}`)
+                system(`git push`)
             end
     end
     folders.size.times do |i, d = depth,p = path|
         children = File.join(p,folders[i])
         checkout_branch = folders[i]
-        # next if children.match?('.git')
         create_branches(d - 1,children,git_ignore_folders,checkout_branch) 
     end
 end
