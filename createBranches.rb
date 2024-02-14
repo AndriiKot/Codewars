@@ -46,6 +46,6 @@ def create_branches(depth = 1,path  = './',git_ignore_folders = nil,checkout_bra
     end
 end
  
-create_branches(2)
+create_branches(ARGV[0].to_i)
 
 
