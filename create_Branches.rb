@@ -1,6 +1,8 @@
 ﻿require 'open3'
 require 'set'
 
+
+
 def create_branches(depth = 1,path  = './',git_ignore_folders = nil,checkout_branch = nil)
     return if depth == 0
 
