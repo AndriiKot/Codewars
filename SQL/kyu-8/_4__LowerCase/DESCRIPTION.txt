@@ -1,0 +1,25 @@
+Given a demographics table in the following format:
+
+** demographics table schema **
+
+id
+name
+birthday
+race
+
+you need to return the same table 
+where all letters are lowercase in the race column.
+
+
+RU:
+Дана демографическая таблица в следующем формате:
+
+** demographics table schema **
+
+id
+name
+birthday
+race
+
+вам нужно вернуть ту же таблицу, 
+где все буквы в столбце гонки написаны строчными буквами.
