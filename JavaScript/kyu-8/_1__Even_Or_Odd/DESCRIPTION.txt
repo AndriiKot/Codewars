@@ -1,0 +1,10 @@
+Create a function that takes an integer
+as an argument and returns "Even" 
+for even numbers or "Odd" for odd numbers.
+
+RU:
+Создайте функцию, которая принимает целое число 
+в качестве аргумента и возвращает результат 
+"Even"для четных или "Odd"нечетных чисел.
+
+
