@@ -1,0 +1,36 @@
+﻿You are given a table of persons which includes 
+their respective age. Your task is to return the list of people, 
+age 30 through 50, using the BETWEEN keyword.
+
+The schema for the persons table is as follows:
+
+id
+name
+age
+
+The resulting table should have two columns as follows:
+
+name
+age
+Order by age, highest to lowest.
+
+
+
+RU:
+Вам предоставлена ​​таблица лиц, 
+в которой указан их возраст. 
+Ваша задача — вернуть список людей в возрасте от 30 до 50 лет, 
+используя BETWEENключевое слово.
+
+Схема таблицы persons следующая:
+
+id
+name
+age
+
+В полученной таблице должно быть два столбца:
+
+name
+age
+
+Упорядочите по возрасту, от самого высокого к самому низкому.
