@@ -1,0 +1,13 @@
+In your application, there is a section for adults only. 
+You need to get a list of names and ages of users 
+from the users table, who are 18 years old or older.
+
+users table schema
+
+name
+age
+
+RU:
+В вашем приложении есть раздел только для взрослых. 
+Вам необходимо получить список имен и 
+возрастов пользователей из таблицы пользователей, которым 18 лет и старше.
