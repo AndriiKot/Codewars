@@ -1,0 +1,26 @@
+You received an invitation to an amazing party. 
+Now you need to write an insert statement to 
+add yourself to the table of participants.
+
+participants table schema
+
+name (string)
+age (integer)
+attending (boolean)
+NOTES:
+
+Since alcohol will be served, you can only attend if you are 21 or older
+You can't attend if the attending column returns anything but true
+
+RU:
+Вы получили приглашение на потрясающую вечеринку. 
+Теперь вам нужно написать оператор вставки, 
+чтобы добавить себя в таблицу участников.
+
+Поскольку будет подаваться алкоголь, 
+вы можете присутствовать только в 
+том случае, если вам 21 год или больше.
+
+Вы не можете присутствовать, 
+если столбец «Посещающий» возвращает 
+значение, отличное от true.
