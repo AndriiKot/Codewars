@@ -1,0 +1,26 @@
+** names table schema **
+
+id
+prefix
+first
+last
+suffix
+
+Your task is to use a select 
+statement to return a single column 
+table containing the full title of 
+the person 
+(concatenate all columns together except id), as follows:
+
+** output table schema **
+
+title
+Don't forget to add spaces.
+
+RU:
+Ваша задача — использовать оператор 
+select для возврата таблицы с одним столбцом, 
+содержащей полное имя человека 
+(объединить все столбцы, кроме id), следующим образом:
+
+Не забудьте добавить пробелы.
