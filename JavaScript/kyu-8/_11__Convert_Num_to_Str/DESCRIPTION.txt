@@ -1,0 +1,6 @@
+We need a function that can 
+transform a number (integer) into a string.
+
+RU:
+Нам нужна функция, которая 
+может преобразовать число (целое) в строку.
