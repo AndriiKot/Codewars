@@ -1,5 +1,4 @@
-
-#CodeWars
+# CodeWars
 
 ## SQL
 #### 8-kyu	  15
