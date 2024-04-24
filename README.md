@@ -5,4 +5,4 @@
 #### 7-kyu	8
 
 ## JavaScript
-#### 8-kyu	19
+#### 8-kyu	24
