@@ -1,0 +1,49 @@
+Our football team has finished the championship.
+
+Our team's match results are 
+recorded in a collection of strings. 
+Each match is represented by a string 
+in the format "x:y", where x is our 
+team's score and y is our opponents score.
+
+For example: ["3:1", "2:2", "0:1", ...]
+
+Points are awarded for each match as follows:
+
+if x > y: 3 points (win)
+if x < y: 0 points (loss)
+if x = y: 1 point (tie)
+
+We need to write a function that 
+takes this collection and returns the number 
+of points our team (x) got in the championship by the rules given above.
+
+Notes:
+
+our team always plays 10 matches in the championship
+0 <= x <= 4
+0 <= y <= 4
+
+
+RU:
+Наша футбольная команда завершила чемпионат.
+
+Результаты матчей нашей команды записываются в набор строк. 
+Каждый матч представлен строкой в ​​формате "x:y", 
+где x— результат нашей команды, а y — результат соперника.
+
+Например: ["3:1", "2:2", "0:1", ...]
+
+Очки начисляются за каждый матч следующим образом:
+
+если x > y: 3 очка (победа)
+если x < y: 0 очков (проигрыш)
+если x = y: 1 очко (ничья)
+
+Нам нужно написать функцию, 
+которая принимает эту коллекцию и возвращает 
+количество очков, которые наша команда 
+(x) набрала в чемпионате по приведенным выше правилам.
+
+
+
