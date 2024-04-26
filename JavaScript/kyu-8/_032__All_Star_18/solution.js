@@ -7,3 +7,4 @@ function strCount(str, letter) {
 }
 
 console.log(strCount("Hello", "o"));
+
