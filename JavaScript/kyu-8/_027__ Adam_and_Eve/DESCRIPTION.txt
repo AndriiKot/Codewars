@@ -1,0 +1,29 @@
+According to the creation myths of the
+ Abrahamic religions, Adam and 
+ Eve were the first Humans to wander the Earth.
+
+You have to do God's job. 
+The creation method must 
+return an array of length 2 
+containing objects (representing Adam and Eve). 
+The first object in the array should 
+be an instance of the class Man. 
+The second should be an instance of 
+the class Woman. Both objects have 
+to be subclasses of Human. 
+Your job is to implement the Human, Man and Woman classes.
+
+RU:
+Согласно мифам, 
+Адам и Ева были первыми людьми, странствовавшими по Земле.
+
+Вы должны выполнять Божью работу. 
+Метод создания должен возвращать 
+массив длиной 2, содержащий объекты 
+(представляющие Адама и Еву). 
+Первый объект массива должен 
+быть экземпляром класса Man. 
+Второй должен быть экземпляром класса Woman. 
+Оба объекта должны быть 
+подклассами Human. 
+Ваша задача — реализовать Human, Man and Woman классы.
