@@ -1,0 +1,28 @@
+You're at the zoo... all the meerkats look weird. 
+Something has gone terribly wrong - 
+someone has gone and switched their heads and tails around!
+
+Save the animals by switching them back. 
+You will be given an array which will have 
+three values (tail, body, head). It is your 
+job to re-arrange the array so that the 
+animal is the right way round (head, body, tail).
+
+Same goes for all the other arrays/lists 
+that you will get in the tests: you have 
+to change the element positions with the same exact logics
+
+
+RU:
+Вы в зоопарке... все сурикаты выглядят странно. 
+Что-то пошло ужасно не так – кто-то поменялся местами!
+
+Спасите животных, переключив их обратно. 
+Вам будет предоставлен массив, который 
+будет иметь три значения (хвост, тело, голова). 
+Ваша задача — перестроить массив так, 
+чтобы животное располагалось правильно (голова, тело, хвост).
+
+То же самое касается всех остальных 
+массивов/списков, которые вы получите 
+ тестах: вам нужно изменить позиции элементов с той же самой логикой.
