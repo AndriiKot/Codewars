@@ -1,0 +1,49 @@
+Who remembers back to their time in the 
+schoolyard, when girls would take a flower and tear its petals, 
+saying each of the following phrases each time a petal was torn:
+
+"I love you"
+"a little"
+"a lot"
+"passionately"
+"madly"
+"not at all"
+
+If there are more than 6 petals, 
+you start over with "I love you" for 
+7 petals, "a little" for 8 petals and so on.
+
+When the last petal was torn there 
+were cries of excitement, dreams, 
+surging thoughts and emotions.
+
+Your goal in this kata is to
+determine which phrase the girls would 
+say at the last petal for a flower of a
+given number of petals. The number 
+of petals is always greater than 0.
+
+RU:
+Кто помнит время, проведенное на школьном дворе, 
+когда девочки брали цветок и рвали его лепестки, 
+произнося каждую из следующих фраз каждый раз, когда отрывали лепесток:
+
+"Я тебя люблю"
+"немного"
+"много"
+"страстно"
+"безумно"
+"нисколько"
+
+Если лепестков больше 6, вы начинаете сначала с 
+"I love you"7 лепестков, "a little"с 8 лепестков и так далее.
+
+Когда оторвался последний лепесток, 
+раздались крики волнения, мечты, 
+нахлынувшие мысли и эмоции.
+
+Ваша цель в этом ката — определить, 
+какую фразу сказали бы девушки на последнем 
+лепестке цветка с заданным количеством 
+лепестков. Количество лепестков всегда больше 0.
+
