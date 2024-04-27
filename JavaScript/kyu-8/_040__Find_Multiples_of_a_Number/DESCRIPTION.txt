@@ -1,0 +1,27 @@
+In this simple exercise, 
+you will build a program that 
+takes a value, integer , and 
+returns a list of its multiples 
+up to another value, limit . 
+If limit is a multiple of integer, 
+it should be included as well. 
+There will only ever be positive 
+integers passed into the function, 
+not consisting of 0. The limit will always be higher than the base.
+
+For example, if the parameters passed are 
+(2, 6), the function should return 
+[2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
+
+RU:
+В этом простом упражнении вы создадите программу, 
+которая принимает значение , 
+integer и возвращает список его кратных другому 
+значению limit . Если limit кратно integer, 
+его также следует включить. В функцию будут 
+передаваться только положительные целые числа, 
+не состоящие из 0. Предел всегда будет выше базового.
+
+Например, если переданные параметры равны (2, 6), 
+функция должна вернуть результат [2, 4, 6], 
+поскольку 2, 4 и 6 кратны числам от 2 до 6.
