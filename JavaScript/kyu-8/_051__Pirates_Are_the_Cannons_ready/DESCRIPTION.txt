@@ -1,0 +1,27 @@
+Ahoy Matey!
+
+Welcome to the seven seas.
+ou are the captain of a pirate ship.
+ou are in battle against the royal navy.
+ou have cannons at the ready.... or are they?
+our task is to check if the gunners are loaded and ready, if they are: Fire!
+f they aren't ready: Shiver me timbers!
+our gunners for each test case are 2, 3 or 4.
+hen you check if they are ready their answers are in a dictionary and will either be: aye or nay
+iring with less than all gunners ready is non-optimum (this is not fire at will, this is fire by the captain's orders or walk the plank, dirty sea-dog!)
+If all answers are 'aye' then Fire! if one or more are 'nay' then Shiver me timbers!
+
+RU:
+Эй, Мати!
+
+Добро пожаловать в семь морей.
+Вы капитан пиратского корабля.
+Вы сражаетесь против королевского флота.
+У вас наготове пушки.... или нет?
+Ваша задача – проверить, заряжены ли артиллеристы и готовы ли они:Fire!
+Если они не готовы:Shiver me timbers!
+Наводчиков для каждого тестового примера — 2, 3 или 4.
+Когда вы проверите, готовы ли они, их ответы находятся в словаре и будут либо: aye или nay
+Стрельба при неготовности всех артиллеристов неоптимальная (это не огонь по желанию, это огонь по приказу капитана или иди по доске, грязный морской волк!)
+Если все ответы «да», то огонь! если один или несколько ответили «нет», то встряхните меня, бревна!
+Также обратите внимание на новых Пиратов!! Ката:
