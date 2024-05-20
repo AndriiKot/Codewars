@@ -1,3 +1,4 @@
-function plural(n) {
-  return n !== 1;
+function correctTail(body, tail) {
+  const sub = body.substr(body.length - tail.length);
+  return sub == tail;
 }
