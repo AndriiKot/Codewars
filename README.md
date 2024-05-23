@@ -1,8 +1,8 @@
 # CodeWars
-##  Overall: 5 kyu	 points: 508
+##  Overall: 5 kyu	 points: 526
 ## SQL
-#### 8-kyu	31 
+#### 8-kyu	34
 #### 7-kyu	8
 
 ## JavaScript
-#### 8-kyu	176
+#### 8-kyu	185
