@@ -1,0 +1,16 @@
+For this challenge you need to create 
+a simple DISTINCT statement, 
+want to find all the unique ages.
+
+people table schema
+
+id
+name
+age
+
+select table schema
+age (distinct)
+
+RU:
+Для этой задачи вам нужно создать 
+простое утверждение DISTINCT: вы хотите найти все уникальные возрасты.
