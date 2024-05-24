@@ -1,3 +1,11 @@
-function animal(obj) {
-  return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
+const animals = {
+  name: "dog",
+  legs: 4,
+  color: "white",
+};
+
+function animal({ color, name, legs }) {
+  return `This ${color} ${name} has ${legs} legs.`;
 }
+
+console.log(animal(animals));
