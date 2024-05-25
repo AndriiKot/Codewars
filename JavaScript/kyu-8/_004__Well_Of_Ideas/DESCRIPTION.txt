@@ -1,0 +1,18 @@
+In this kata you need to check the 
+provided array (x) for good ideas 
+'good' and bad ideas 'bad'. 
+If there are one or two good ideas, 
+return 'Publish!', if there are more than 2 return 
+'I smell a series!'. 
+If there are no good ideas, 
+as is often the case, return 'Fail!'.
+
+RU:
+В этом ката вам нужно проверить 
+предоставленный массив (x) 
+на наличие хороших идей «хороших» и 
+плохих идей «плохих». Если есть одна 
+или две хорошие идеи, верните 
+«Опубликовать!», если их больше 2, 
+верните «Чувствую серию!». 
+Если хороших идей нет, как это часто бывает, верните «Fail!».
