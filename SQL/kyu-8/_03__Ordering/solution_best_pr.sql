@@ -1,1 +1,0 @@
-ELECT * FROM companies ORDER BY employees DESC;
