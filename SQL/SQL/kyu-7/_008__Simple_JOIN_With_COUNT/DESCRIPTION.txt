@@ -1,0 +1,30 @@
+For this challenge you need to create 
+a simple SELECT statement that 
+will return all columns from the
+people table, and join to the 
+toys table so that you can return 
+the COUNT of the toys
+
+people table schema
+
+id
+name
+
+toys table schema
+
+id
+name
+people_id
+
+You should return all people fields as well as the toy count as "toy_count".
+
+RU:
+Для этой задачи вам нужно 
+создать простой оператор SELECT,
+который будет возвращать все столбцы 
+из таблицы people и присоединяться к toys
+таблице, чтобы вы могли вернуть COUNT игрушек.
+
+Вы должны вернуть все поля людей, 
+а также количество игрушек как «toy_count».
+
