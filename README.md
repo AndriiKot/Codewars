@@ -1,5 +1,5 @@
-# CodeWars
-## SQL
+# CodeWar SQL
+
 ###  SQL:	6 kyu	 
 ###  Honor:	536
 
