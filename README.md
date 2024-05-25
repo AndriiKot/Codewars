@@ -1,8 +1,7 @@
 # CodeWars
-##  Overall: 5 kyu	 points: 536
-## SQL
-#### 8-kyu	38
-#### 7-kyu	8
+  
+##  Rank:		  5 kyu	 
+##  Honor:		  536
+##  Total Completed Kata: 219
+##
 
-## JavaScript
-#### 8-kyu	190
