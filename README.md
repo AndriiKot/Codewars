@@ -3,7 +3,7 @@
 ### JavaScript
   
 ####  Rank:		  5 kyu	 
-####  Honor:		  546
-####  8-kyu:       	  195
+####  Honor:		  558
+####  8-kyu:       	  200
 
 
