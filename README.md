@@ -2,6 +2,6 @@
 ## CodeWars
   
 ###  Rank:		  5 kyu	 
-### Honor:		  558
-### Total Completed Kata: 224
+### Honor:		  564
+### Total Completed Kata: 230
 
