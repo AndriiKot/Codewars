@@ -3,8 +3,8 @@
 ## CodeWar SQL
 
 ###  SQL:	6 kyu	 
-###  Honor:	564
+###  Honor:	582
 
-#### 8-kyu	47
+#### 8-kyu	49
 #### 7-kyu	8
 
