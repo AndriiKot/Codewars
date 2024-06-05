@@ -11,5 +11,5 @@ end
 
 system(`ruby update_README_.rb`)
 system(`git add .`)
-system(`git commit -m "CodeWars 'Curretn Status'"`)
+system(`git commit -m "CodeWars 'Current Status'"`)
 system(`git push`)
