@@ -1,5 +1,5 @@
 # AndriiKot  
 #### Rank: 5 kyu  
-#### Honor: 620  
-#### Leaderboard Position: 79150  
-#### Total Completed Kata: 261
+#### Honor: 622  
+#### Leaderboard Position: 78752  
+#### Total Completed Kata: 262
