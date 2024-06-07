@@ -1,9 +1,5 @@
 # AndriiKot
-## CodeWars
-### JavaScript
-  
-####  Rank:		  5 kyu	 
-####  Honor:		  598
-####  8-kyu:       	  216
-
-
+## JavaScript
+#### JavaScript rank: 5 kyu
+#### JavaScript score: 461
+##### 8-kyu: 225
