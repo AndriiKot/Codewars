@@ -21,9 +21,7 @@ if response.code == '200'
   score = data['ranks']['overall']['score']
   total = data['codeChallenges']['totalCompleted']
   
-  template = <<~EOF
-  # #{user_name}
-  EOF
+  template = "# #{user_name}\n"
 
   hash_languages = data["ranks"]["languages"]
   hash_convert = { 'sql' => 'SQL', 'javascript' => 'JavaScript', }
@@ -46,7 +44,6 @@ if response.code == '200'
 
 end
 
-# p template
   File.open('./README.md', 'w+') do |f|
     f.puts(template)
   end
