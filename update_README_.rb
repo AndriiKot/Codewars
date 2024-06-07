@@ -21,15 +21,6 @@ if response.code == '200'
   score = data['ranks']['overall']['score']
   total = data['codeChallenges']['totalCompleted']
   
-  # template = "# #{user_name}\
-  # \n#### Rank: #{overall_kyu}\
-  # \n#### Honor: #{honor}\
-  # \n#### Leaderboard Position: #{position}\
-  # \n#### Total Completed Kata: #{total}"
-  # File.open('./README.md', 'w+') do |f|
-  #   f.puts(template)
-  # end
-
   template = <<~EOF
   # #{user_name}
   #### Rank: #{overall_kyu}
@@ -38,7 +29,7 @@ if response.code == '200'
   #### Total Completed Kata: #{total}
   EOF
   puts template
-  File.open('./README_.md', 'w+') do |f|
+  File.open('./README.md', 'w+') do |f|
     f.puts(template)
   end
 end
