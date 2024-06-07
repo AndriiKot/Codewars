@@ -13,7 +13,7 @@ if response.code == '200'
   res = response.body
 
   data = JSON.parse(res)
-
+  
   user_name = data['username']
   overall_kyu = data['ranks']['overall']['name']
   honor = data['honor']
@@ -28,10 +28,25 @@ if response.code == '200'
   #### Leaderboard Position: #{position}
   #### Total Completed Kata: #{total}
   EOF
+
+  hash_languages = data["ranks"]["languages"]
+  hash_convert = { 'sql' => 'SQL', 'javascript' => 'JavaScript', }
+  hash_languages.each do |key, value|
+    template += <<~EOF  
+    
+
+    ## #{hash_convert[key]}
+    #### Rank: #{value['name']}
+    #### Score: #{value['score']}
+    EOF
+  end
+
+end
+
+pp template
   puts template
   File.open('./README.md', 'w+') do |f|
     f.puts(template)
   end
-end
 
 
