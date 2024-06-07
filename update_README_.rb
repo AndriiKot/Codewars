@@ -32,14 +32,3 @@ if response.code == '200'
 end
 
 
-# Rank:5 kyu
-# Honor:598
-# Leaderboard Position:#84,195
-# Honor Percentile:Top 13.115%
-# Total Completed Kata:250
-
-
-# Overall:5 kyu / 68.1%
-# JavaScript:5 kyu / 51.7%
-# SQL:6 kyu / 34.0%
-
