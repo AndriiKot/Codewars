@@ -27,22 +27,28 @@ if response.code == '200'
 
   hash_languages = data["ranks"]["languages"]
   hash_convert = { 'sql' => 'SQL', 'javascript' => 'JavaScript', }
+
+  kyu_7, kyu_8 = "./kyu-7/", "./kyu-8/"
+  folders_count_7 = Dir.glob("#{kyu_7}/*").count
+  folders_count_8 = Dir.glob("#{kyu_8}/*").count
+
   hash_languages.each do |key, value|
     if key == 'sql'
     template += <<~EOF  
     ## #{hash_convert[key]}
-    #### Rank: #{value['name']}
-    #### Score: #{value['score']}
+    #### SQL rank: #{value['name']}
+    #### SQL score: #{value['score']}
+    ##### 7-kyu: #{folders_count_7}
+    ##### 8-kyu: #{folders_count_8}
     EOF
     end
   end
 
 end
 
-# pp template
-  puts template
-  # File.open('./README.md', 'w+') do |f|
-  #   f.puts(template)
-  # end
+# p template
+  File.open('./README.md', 'w+') do |f|
+    f.puts(template)
+  end
 
 

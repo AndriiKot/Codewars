@@ -1,10 +1,6 @@
 # AndriiKot
-
-## CodeWar SQL
-
-###  SQL:	6 kyu	 
-###  Honor:	598
-
-#### 8-kyu	50
-#### 7-kyu	10
-
+## SQL
+#### SQL rank: 6 kyu
+#### SQL score: 140
+##### 7-kyu: 14
+##### 8-kyu: 50
