@@ -29,6 +29,18 @@ if response.code == '200'
   File.open('./README.md', 'w+') do |f|
     f.puts(template)
   end
+
+  template = <<~EOF
+  # #{user_name}
+  #### Rank: #{overall_kyu}
+  #### Honor: #{honor}
+  #### Leaderboard Position: #{position}
+  #### Total Completed Kata: #{total}
+  EOF
+  puts template
+  File.open('./README_.md', 'w+') do |f|
+    f.puts(template)
+  end
 end
 
 
