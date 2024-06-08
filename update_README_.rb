@@ -45,10 +45,8 @@ if response.code == '200'
 
 end
 
-pp template
-  puts template
-  File.open('./README.md', 'w+') do |f|
-    f.puts(template)
-  end
+File.open('./README.md', 'w+') do |f|
+  f.puts(template)
+end
 
 
