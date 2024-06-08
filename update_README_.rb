@@ -49,4 +49,6 @@ File.open('./README.md', 'w+') do |f|
   f.puts(template)
 end
 
-
+system(`git add .`)
+system(`git commit -m "CodeWars 'Current Status'"`)
+system(`git push`)

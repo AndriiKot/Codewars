@@ -3,7 +3,7 @@
 ### General Statistics
 #### Rank: 5 kyu
 #### Honor: 622
-#### Leaderboard Position: 78758
+#### Leaderboard Position: 78769
 #### Total Completed Kata: 262
 
 
