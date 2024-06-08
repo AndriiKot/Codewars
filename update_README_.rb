@@ -23,6 +23,8 @@ if response.code == '200'
   
   template = <<~EOF
   # #{user_name}
+  ## CodeWars Profile
+  ### General Statistics
   #### Rank: #{overall_kyu}
   #### Honor: #{honor}
   #### Leaderboard Position: #{position}
