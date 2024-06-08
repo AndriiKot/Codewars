@@ -1,7 +1,9 @@
 # AndriiKot
+## CodeWars Profile
+### General Statistics
 #### Rank: 5 kyu
 #### Honor: 622
-#### Leaderboard Position: 78752
+#### Leaderboard Position: 78758
 #### Total Completed Kata: 262
 
 
