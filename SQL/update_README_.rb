@@ -43,3 +43,7 @@ File.open('./README.md', 'w+') do |f|
 end
 
 
+system(`git add .`)
+system(`git commit -m "SQL CodeWars 'Current Status ' or 'README.md update"`)
+system(`git push`)
+
