@@ -1,6 +1,6 @@
 # AndriiKot
 ## SQL
 #### SQL rank: 6 kyu
-#### SQL score: 140
-##### 7-kyu: 14
+#### SQL score: 149
+##### 7-kyu: 17
 ##### 8-kyu: 50
