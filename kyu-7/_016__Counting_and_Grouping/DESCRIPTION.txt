@@ -1,18 +1,11 @@
-Given a demographics table 
-in the following format:
+Given the following table 'decimals':
 
-** demographics table schema **
+decimals table schema
 
 id
-name
-birthday
-race
+number1
+number2
 
-you need to return a table that 
-shows a count of each race represented, 
-ordered by the count in descending order as:
+Return a table with a single column 
+result which is the output of number1 raised to the power of number2.
 
-** output table schema **
-
-race
-count

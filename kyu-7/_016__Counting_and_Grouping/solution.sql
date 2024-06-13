@@ -1,9 +1,4 @@
 SELECT
-  race,
-  COUNT(*)
+  POWER(number1, number2) AS result
 FROM
-  demographics
-GROUP BY
-  race
-ORDER BY
-  COUNT(*) DESC;
+  decimals;
