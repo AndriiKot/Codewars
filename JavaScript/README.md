@@ -1,5 +1,5 @@
 # AndriiKot
 ## JavaScript
 #### JavaScript rank: 5 kyu
-#### JavaScript score: 461
-##### 8-kyu: 225
+#### JavaScript score: 467
+##### 8-kyu: 228
