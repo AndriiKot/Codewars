@@ -2,9 +2,9 @@
 ## CodeWars Profile
 ### General Statistics
 #### Rank: 5 kyu
-#### Honor: 640
-#### Leaderboard Position: 75138
-#### Total Completed Kata: 271
+#### Honor: 642
+#### Leaderboard Position: 74771
+#### Total Completed Kata: 272
 
 
 ## JavaScript
@@ -14,4 +14,4 @@
 
 ## SQL
 #### Rank: 6 kyu
-#### Score: 149
+#### Score: 152
