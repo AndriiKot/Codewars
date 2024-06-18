@@ -31,7 +31,7 @@ if response.code == '200'
         #### SQL rank: #{value['name']}
         #### SQL score: #{value['score']}
         ##### 7-kyu: #{folders_count_7}
-        ##### 8-kyu: #{folders_count_8}
+        ##### [8-kyu: #{folders_count_8}](https://github.com/AndriiKot/SQL__CodeWars/tree/main/kyu-8)
       EOF
     end
   end
