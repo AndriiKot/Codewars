@@ -1,4 +1,4 @@
-﻿﻿require 'net/http'
+﻿require 'net/http'
 require 'json'
 
 url = URI.parse('https://www.codewars.com/api/v1/users/AndriiKot')
