@@ -33,7 +33,7 @@ if response.code == '200'
 
   hash_languages = data["ranks"]["languages"]
   hash_convert = { 'sql' => 'SQL', 'javascript' => 'JavaScript', }
-  hash_links = {'sql' => 'https://github.com/AndriiKot/SQL__CodeWars'}
+  hash_links = {'sql' => 'https://github.com/AndriiKot/SQL__CodeWars','javascript' => 'https://github.com/AndriiKot/JavaScript__CodeWars'}
   hash_languages.each do |key, value|
     template += <<~EOF  
     

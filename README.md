@@ -6,12 +6,10 @@
 #### Leaderboard Position: 74370
 #### Total Completed Kata: 273
 
-## [SQL]({"sql"=>"https://github.com/AndriiKot/SQL__CodeWars"})
-## JavaScript
+## [JavaScript](https://github.com/AndriiKot/JavaScript__CodeWars)
 #### Rank: 5 kyu
 #### Score: 473
 
-## [SQL]({"sql"=>"https://github.com/AndriiKot/SQL__CodeWars"})
-## SQL
+## [SQL](https://github.com/AndriiKot/SQL__CodeWars)
 #### Rank: 6 kyu
 #### Score: 155
