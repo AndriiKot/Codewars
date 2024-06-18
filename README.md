@@ -7,7 +7,7 @@
 #### Total Completed Kata: 272
 
 
-## JavaScript
+## [JavaScript](https://github.com/AndriiKot/JavaScript__CodeWars)
 #### Rank: 5 kyu
 #### Score: 473
 
