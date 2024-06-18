@@ -37,8 +37,7 @@ if response.code == '200'
   hash_languages.each do |key, value|
     template += <<~EOF  
     
-    ## [SQL](#{hash_links})
-    ## #{hash_convert[key]}
+    ## [#{hash_convert[key]}](#{hash_links[key]})
     #### Rank: #{value['name']}
     #### Score: #{value['score']}
     EOF
