@@ -1,4 +1,4 @@
-﻿require 'net/http'
+﻿﻿require 'net/http'
 require 'json'
 
 url = URI.parse('https://www.codewars.com/api/v1/users/AndriiKot')
@@ -29,7 +29,7 @@ if response.code == '200'
         ## JavaScript
         #### JavaScript rank: #{value['name']}
         #### JavaScript score: #{value['score']}
-        ##### 8-kyu: #{folders_count_8}
+        ##### [8-kyu: #{folders_count_8}](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-8)
       EOF
     end
   end
@@ -43,6 +43,3 @@ end
 system(`git add .`)
 system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md update"`)
 system(`git push`)
-
-
-
