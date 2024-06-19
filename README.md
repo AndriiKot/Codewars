@@ -1,5 +1,5 @@
-# AndriiKot
-## CodeWars Profile
+# [AndriiKot](https://www.codewars.com/users/AndriiKot)
+## [CodeWars Profile](https://www.codewars.com/users/AndriiKot)
 ### General Statistics
 #### Rank: 5 kyu
 #### Honor: 644
