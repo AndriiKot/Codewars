@@ -1,9 +1,9 @@
-# [AndriiKot](https://www.codewars.com/users/AndriiKot)
-## [CodeWars Profile](https://www.codewars.com/users/AndriiKot)
+# AndriiKot
+## CodeWars Profile
 ### General Statistics
 #### Rank: 5 kyu
 #### Honor: 644
-#### Leaderboard Position: 74370
+#### Leaderboard Position: 74396
 #### Total Completed Kata: 273
 
 ## [JavaScript](https://github.com/AndriiKot/JavaScript__CodeWars)
