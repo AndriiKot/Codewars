@@ -3,7 +3,7 @@
 ### General Statistics
 #### Rank: 5 kyu
 #### Honor: 644
-#### Leaderboard Position: 74396
+#### Leaderboard Position: 74410
 #### Total Completed Kata: 273
 
 ## [JavaScript](https://github.com/AndriiKot/JavaScript__CodeWars)
