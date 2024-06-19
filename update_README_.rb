@@ -16,7 +16,7 @@ if response.code == '200'
   
   user_name = data['username']
   
-  template = "# #{user_name}\n"
+  template = "# [#{user_name}](https://www.codewars.com/users/AndriiKot) \n"
 
   hash_languages = data["ranks"]["languages"]
 
