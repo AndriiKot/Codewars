@@ -22,8 +22,8 @@ if response.code == '200'
   total = data['codeChallenges']['totalCompleted']
   
   template = <<~EOF
-  # #{user_name}
-  ## CodeWars Profile
+  # [#{user_name}](https://www.codewars.com/users/AndriiKot)
+  ## [CodeWars Profile](https://www.codewars.com/users/AndriiKot)
   ### General Statistics
   #### Rank: #{overall_kyu}
   #### Honor: #{honor}
