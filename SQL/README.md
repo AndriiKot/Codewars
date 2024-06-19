@@ -1,4 +1,4 @@
-# AndriiKot
+# [AndriiKot](https://www.codewars.com/users/AndriiKot) 
 ## SQL
 #### SQL rank: 6 kyu
 #### SQL score: 155
