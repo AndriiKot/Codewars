@@ -3,13 +3,13 @@
 #### As of 25 6 2024 uploaded:
 ### General Statistics
 #### Rank: 5 kyu
-#### Honor: 668
-#### Leaderboard Position: 69784
-#### Total Completed Kata: 285
+#### Honor: 672
+#### Leaderboard Position: 69046
+#### Total Completed Kata: 287
 
 ## [JavaScript](https://github.com/AndriiKot/JavaScript__CodeWars)
 #### Rank: 5 kyu
-#### Score: 489
+#### Score: 493
 
 ## [SQL](https://github.com/AndriiKot/SQL__CodeWars)
 #### Rank: 6 kyu
