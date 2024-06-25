@@ -2,9 +2,9 @@
 ## [CodeWars Profile](https://www.codewars.com/users/AndriiKot)
 ### General Statistics
 #### Rank: 5 kyu
-#### Honor: 662
-#### Leaderboard Position: 70912
-#### Total Completed Kata: 282
+#### Honor: 668
+#### Leaderboard Position: 69784
+#### Total Completed Kata: 285
 
 ## [JavaScript](https://github.com/AndriiKot/JavaScript__CodeWars)
 #### Rank: 5 kyu
@@ -12,4 +12,4 @@
 
 ## [SQL](https://github.com/AndriiKot/SQL__CodeWars)
 #### Rank: 6 kyu
-#### Score: 158
+#### Score: 167
