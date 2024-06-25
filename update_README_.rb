@@ -21,12 +21,12 @@ if response.code == '200'
   score = data['ranks']['overall']['score']
   total = data['codeChallenges']['totalCompleted']
   
-  t = Time.now
+  time = Time.now
  
   template = <<~EOF
   # [#{user_name}](https://www.codewars.com/users/AndriiKot)
   ## [CodeWars Profile](https://www.codewars.com/users/AndriiKot)
-  #### As of #{t.day} #{t.month} #{t.year} uploaded:
+  #### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
   ### General Statistics
   #### Rank: #{overall_kyu}
   #### Honor: #{honor}
