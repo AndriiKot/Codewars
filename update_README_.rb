@@ -26,7 +26,7 @@ if response.code == '200'
   template = <<~EOF
   # [#{user_name}](https://www.codewars.com/users/AndriiKot)
   ## [CodeWars Profile](https://www.codewars.com/users/AndriiKot)
-  ## As of #{t.year} #{t.month} #{t.day} uploaded:
+  ## As of #{t.day} #{t.month} #{t.year} uploaded:
   ### General Statistics
   #### Rank: #{overall_kyu}
   #### Honor: #{honor}
