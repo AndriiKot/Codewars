@@ -23,13 +23,13 @@ if response.code == '200'
   kyu_8 =  "./kyu-8/"
   folders_count_8 = Dir.glob("#{kyu_8}/*").count
 
-  t = Time.now
+  time = Time.now
 
   hash_languages.each do |key, value|
     if key == 'javascript'
       template += <<~EOF  
         ## JavaScript
-	##### As of #{t.day} #{t.month} #{t.year} uploaded:
+	##### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
         #### JavaScript rank: #{value['name']}
         #### JavaScript score: #{value['score']}
         ##### [8-kyu: #{folders_count_8}](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-8)
