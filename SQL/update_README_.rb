@@ -24,13 +24,13 @@ if response.code == '200'
   folders_count_7 = Dir.glob("#{kyu_7}/*").count
   folders_count_8 = Dir.glob("#{kyu_8}/*").count
 
-  t = Time.now
+  time = Time.now
 
   hash_languages.each do |key, value|
     if key == 'sql'
       template += <<~EOF  
         ## SQL
-        ##### As of #{t.day} #{t.month} #{t.year} uploaded:
+        ##### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
         #### SQL rank: #{value['name']}
         #### SQL score: #{value['score']}
         ##### [7-kyu: #{folders_count_7}](https://github.com/AndriiKot/SQL__CodeWars/tree/main/kyu-7)
