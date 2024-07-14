@@ -30,6 +30,7 @@ if response.code == '200'
   ### General Statistics
   #### Rank: #{overall_kyu}
   #### Honor: #{honor}
+  #### Score: #{score}
   #### Leaderboard Position: #{position}
   #### Total Completed Kata: #{total}
   EOF
