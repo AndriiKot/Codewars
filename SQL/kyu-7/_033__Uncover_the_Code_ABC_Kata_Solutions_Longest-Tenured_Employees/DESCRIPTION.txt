@@ -1,0 +1,41 @@
+In celebration of ABC Kata Solutions' anniversary, 
+we focus on the pillars of an organization: 
+longest-serving and currently active employees. 
+This SQL challenge involves uncovering a hidden 
+code derived from the first letters of the names 
+of the top 5 longest-tenured employees who are 
+still actively contributing to ABC Kata Solutions.
+
+Craft an SQL query to discover a hidden code by summing 
+the ASCII values of the first letters of the last 
+names of the top five oldest (longest-tenured) 
+employees who are still actively contributing to ABC Kata Solutions.
+
+
+You have access to an employees table in ABC Kata Solutions'database, which includes:
+
+
+id (integer) - Unique identifier for each employee.
+name (string) - Full name of the employee, formatted as "firstName lastName".
+joined_date (date) - The date the employee began their employment with ABC Kata Solutions.
+left_date (date, nullable) - 
+The date the employee ended their employment with ABC Kata Solutions, if applicable.
+Requirements:
+
+
+Identify the Top 5 Oldest Current Employees: 
+Find the five employees with the longest 
+tenure at ABC Kata Solutions who are still employed (i.e., their left_date is NULL).
+Extract the First Letter of the Last Name: 
+From each employee's name, extract the first letter of the last name.
+Calculate ASCII Values: Convert these letters to their ASCII values.
+Sum the Values: Sum the ASCII values to derive the hidden code.
+Present the Result: Display the final sum as hidden_code.
+
+
+Notes:
+Let's assume for this task that there are no employees 
+with the same joined_date - tests are written to ensure 
+that no two employees have the same date of join.
+For this sample data:
+
