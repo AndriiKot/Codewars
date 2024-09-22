@@ -2,6 +2,7 @@
 ## JavaScript
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ##### As of 2024-07-26 13:57:52 uploaded:
 #### JavaScript rank: 5 kyu
 #### JavaScript score: 551
@@ -18,3 +19,9 @@
 #### JavaScript score: 555
 ##### [8-kyu: 272](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-8)
 >>>>>>> 2a0cd39c1bfed32285dd29ee2964183d429d5730
+=======
+##### As of 2024-09-22 21:15:11 uploaded:
+#### JavaScript rank: 5 kyu
+#### JavaScript score: 557
+##### [8-kyu: 273](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-8)
+>>>>>>> bd7d356623324b5e88aa5343d95509056b3ac114
