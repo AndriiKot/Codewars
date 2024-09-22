@@ -1,6 +1,6 @@
 # [AndriiKot](https://www.codewars.com/users/AndriiKot) 
 ## SQL
-##### As of 2024-08-25 21:49:17 uploaded:
+##### As of 2024-09-22 10:19:11 uploaded:
 #### SQL rank: 6 kyu
 #### SQL score: 200
 ##### [7-kyu: 34](https://github.com/AndriiKot/SQL__CodeWars/tree/main/kyu-7)
