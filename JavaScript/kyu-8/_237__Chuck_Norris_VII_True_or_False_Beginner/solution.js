@@ -1,3 +1,0 @@
-function ifChuckSaysSo() {
-  return !true;
-}
