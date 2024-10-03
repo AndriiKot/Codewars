@@ -1,6 +1,6 @@
 # [AndriiKot](https://www.codewars.com/users/AndriiKot) 
 ## JavaScript
-##### As of 2024-10-02 14:38:08 uploaded:
+##### As of 2024-10-03 15:16:56 uploaded:
 #### JavaScript rank: 5 kyu
-#### JavaScript score: 579
-##### [8-kyu: 284](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-8)
+#### JavaScript score: 581
+##### [8-kyu: 285](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-8)
