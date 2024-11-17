@@ -1,9 +1,9 @@
 function doubleChar(str) {
-  let doubleString = "";
+  let doubleString = '';
   for (char of str) {
-    doubleString += (char + char);
+    doubleString += char + char;
   }
   return doubleString;
 }
 
-console.log(doubleChar("String"));
+console.log(doubleChar('String'));

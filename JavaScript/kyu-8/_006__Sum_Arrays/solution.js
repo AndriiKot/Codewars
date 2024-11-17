@@ -1,4 +1,4 @@
 function sum(numbers) {
-  "use strict";
+  'use strict';
   return numbers.reduce((a, b) => a + b, 0);
 }

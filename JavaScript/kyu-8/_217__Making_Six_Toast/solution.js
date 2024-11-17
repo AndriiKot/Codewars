@@ -1,3 +1,3 @@
 function sixToast(num) {
-  return Math.abs(num - 6)
+  return Math.abs(num - 6);
 }

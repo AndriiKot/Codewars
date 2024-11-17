@@ -1,7 +1,10 @@
 // Codewars solution
-function closeCompare(a, b, m = 0) {
-  return Math.abs(a - b) <= m ? 0 : Math.sign(a - b);
+{
+  function closeCompare(a, b, m = 0) {
+    return Math.abs(a - b) <= m ? 0 : Math.sign(a - b);
+  }
 }
+
 // My solution
 function closeCompare(a, b, margin = 0) {
   let result = 1;

@@ -1,6 +1,5 @@
 function reverse(string) {
-  return string.split(" ").reverse().join(" ");
+  return string.split(' ').reverse().join(' ');
 }
 
-
-console.log(reverse("I really like pizza"))
+console.log(reverse('I really like pizza'));

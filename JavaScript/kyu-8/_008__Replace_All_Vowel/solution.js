@@ -1,3 +1,3 @@
 function replace(s) {
-    return s.replace(/[aeiou]/gi, '!');
+  return s.replace(/[aeiou]/gi, '!');
 }

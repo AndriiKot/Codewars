@@ -3,7 +3,7 @@ function digitize1(n) {
 }
 
 function digitize2(n) {
-  return n.toString().split("").reverse().map(Number);
+  return n.toString().split('').reverse().map(Number);
 }
 
 // sample tests

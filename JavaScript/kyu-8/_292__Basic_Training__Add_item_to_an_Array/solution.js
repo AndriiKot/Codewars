@@ -1,2 +1,2 @@
 const websites = [];
-websites.push("codewars");
+websites.push('codewars');

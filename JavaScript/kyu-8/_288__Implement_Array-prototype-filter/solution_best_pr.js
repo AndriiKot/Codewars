@@ -1,7 +1,7 @@
 // Best Praxe
-Array.prototype.filter1 = function(fn){
-  return this.reduce((s,a)=>fn(a)?(s.push(a),s):s,[]);
-}
+Array.prototype.filter1 = function (fn) {
+  return this.reduce((s, a) => (fn(a) ? (s.push(a), s) : s), []);
+};
 
 // My Solution
 Array.prototype.filter2 = function (callback) {

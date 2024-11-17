@@ -1,3 +1,3 @@
 function trueOrFalse(val) {
-  return val ? "true" : "false";
+  return val ? 'true' : 'false';
 }

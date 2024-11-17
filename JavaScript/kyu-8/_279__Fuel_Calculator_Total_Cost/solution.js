@@ -1,7 +1,7 @@
 function fuelPrice(litres, pricePerLitre) {
   let discount = 0;
   let discountForLiter = 0;
-  let price = litres * pricePerLitre;
+  const price = litres * pricePerLitre;
 
   if (litres >= 2) {
     discountForLiter = 0.05;
@@ -20,9 +20,8 @@ function fuelPrice(litres, pricePerLitre) {
   }
   if (discountForLiter) discount = discountForLiter * litres;
 
-  let total = price - discount;
-  let normalizeTotal = total.toFixed(2);
-  let result = parseFloat(normalizeTotal);
+  const total = price - discount;
+  const normalizeTotal = total.toFixed(2);
+  const result = parseFloat(normalizeTotal);
   return result;
 }
-

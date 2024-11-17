@@ -3,5 +3,5 @@ function oddCount(n) {
 }
 
 // Sample Tests:
-console.log(oddCount(15));    // 7
+console.log(oddCount(15)); // 7
 console.log(oddCount(15023)); // 7511

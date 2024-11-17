@@ -8,6 +8,8 @@
 }
 
 // My Solution
-const ArrowFunc = (arr) => {
-  return arr.map((el) => String.fromCharCode(el)).join(""); //Complete this function
-};
+{
+  const ArrowFunc = (arr) => {
+    return arr.map((el) => String.fromCharCode(el)).join(''); //Complete this function
+  };
+}

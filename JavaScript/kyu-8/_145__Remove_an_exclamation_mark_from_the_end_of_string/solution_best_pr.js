@@ -1,1 +1,1 @@
-const remove = (s) => s.replace(/!$/, "");
+const remove = (s) => s.replace(/!$/, '');

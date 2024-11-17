@@ -3,4 +3,4 @@ function digitize(n) {
 }
 
 // sample tests
-console.log(digitize(35231))
+console.log(digitize(35231));

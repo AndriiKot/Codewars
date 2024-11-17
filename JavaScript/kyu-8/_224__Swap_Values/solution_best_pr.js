@@ -4,7 +4,7 @@ function swapValues1() {
 
 // My solution
 function swapValues2(arr) {
-  let temp = arr[0];
+  const temp = arr[0];
   arr[0] = arr[1];
   arr[1] = temp;
   return arr;

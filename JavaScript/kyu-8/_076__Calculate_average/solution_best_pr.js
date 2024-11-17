@@ -1,7 +1,5 @@
 var find_average1 = (array) => {
-  return array.length === 0
-    ? 0
-    : array.reduce((acc, ind) => acc + ind, 0) / array.length;
+  return array.length === 0 ? 0 : array.reduce((acc, ind) => acc + ind, 0) / array.length;
 };
 
 function findAverage2(array) {

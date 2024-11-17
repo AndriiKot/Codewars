@@ -1,3 +1,2 @@
 const items = [];
-items.push({ a: "b", c: "d" });
-
+items.push({ a: 'b', c: 'd' });

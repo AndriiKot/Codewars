@@ -1,16 +1,16 @@
 function reverseWords1(str) {
-  return str.split(" ").reverse().join(" ");
+  return str.split(' ').reverse().join(' ');
 }
 
 function reverseWords2(str) {
-  let newString = "";
+  let newString = '';
 
-  const arrWords = str.split(" ");
+  const arrWords = str.split(' ');
 
-  newString += " " + arrWords.pop();
+  newString += ' ' + arrWords.pop();
 
   while (arrWords.length > 0) {
-    newString += " " + arrWords.pop();
+    newString += ' ' + arrWords.pop();
   }
 
   return newString.trim();

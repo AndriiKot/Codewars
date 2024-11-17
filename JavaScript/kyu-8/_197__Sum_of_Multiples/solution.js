@@ -7,7 +7,7 @@ function sumMul(n, m) {
       n += step;
     }
   }
-  return res || "INVALID";
+  return res || 'INVALID';
 }
 
 console.log(sumMul(2, -9));

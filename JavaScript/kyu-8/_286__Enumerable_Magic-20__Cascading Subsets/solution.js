@@ -1,8 +1,6 @@
 function eachCons(array, n) {
   const maxLen = array.length - n + 1;
-  const NewArr = Array.from({ length: maxLen }, (_, i) =>
-    array.slice(i, i + n)
-  );
+  const NewArr = Array.from({ length: maxLen }, (_, i) => array.slice(i, i + n));
   return NewArr;
 }
 

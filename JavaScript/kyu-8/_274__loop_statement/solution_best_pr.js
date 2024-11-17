@@ -1,9 +1,9 @@
 function padIt(str, n) {
   while (n > 0) {
     if (n % 2 === 0) {
-      str = str + "*";
+      str = str + '*';
     } else {
-      str = "*" + str;
+      str = '*' + str;
     }
     n--;
   }
@@ -13,14 +13,14 @@ function padIt(str, n) {
 // My solution
 
 function padIt1(str, n) {
-  let startSting = "";
-  let endString = "";
+  let startSting = '';
+  let endString = '';
 
   while (n > 0) {
     if (n & 1) {
-      startSting += "*";
+      startSting += '*';
     } else {
-      endString += "*";
+      endString += '*';
     }
     n--;
   }

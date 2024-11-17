@@ -5,5 +5,5 @@ function countWords(str) {
   return filteredWords.length;
 }
 
-console.log(countWords("Hello"));
-console.log(countWords("Hello, World!"));
+console.log(countWords('Hello'));
+console.log(countWords('Hello, World!'));

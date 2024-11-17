@@ -1,3 +1,3 @@
 function smash(words) {
-  return words.join(" ").trim();
+  return words.join(' ').trim();
 }

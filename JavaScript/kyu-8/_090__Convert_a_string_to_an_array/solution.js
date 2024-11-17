@@ -1,5 +1,5 @@
 function stringToArray(string) {
-  return string.split(" ");
+  return string.split(' ');
 }
 
-console.log(stringToArray("Robin Singh"));
+console.log(stringToArray('Robin Singh'));

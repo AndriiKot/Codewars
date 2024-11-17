@@ -3,7 +3,7 @@ function sum1(numbers) {
 }
 
 sum2 = function (numbers) {
-  "use strict";
+  'use strict';
   var total = 0;
   for (var i = 0; i < numbers.length; i++) {
     total += numbers[i];

@@ -3,10 +3,9 @@ class SmallestIntegerFinder {
     return args.reduce((a, b) => Math.min(a, b));
   }
   findSmallestInt2(args) {
-    return args.reduce((a, b) => a < b ? a : b);
+    return args.reduce((a, b) => (a < b ? a : b));
   }
 }
-
 
 // sample tests:
 const result = new SmallestIntegerFinder();

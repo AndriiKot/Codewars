@@ -6,5 +6,4 @@ function strCount(str, letter) {
   return count;
 }
 
-console.log(strCount("Hello", "o"));
-
+console.log(strCount('Hello', 'o'));

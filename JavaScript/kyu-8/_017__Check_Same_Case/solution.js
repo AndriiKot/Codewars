@@ -7,7 +7,7 @@ function sameCase(a, b) {
 }
 
 // Sample tests
-console.log(sameCase("F", "A"));
-console.log(sameCase("b", "c"));
-console.log(sameCase("c", "C"));
-console.log(sameCase("d", "23"));
+console.log(sameCase('F', 'A'));
+console.log(sameCase('b', 'c'));
+console.log(sameCase('c', 'C'));
+console.log(sameCase('d', '23'));

@@ -1,2 +1,1 @@
-const divisibleBy = (numbers, divisor) =>
-  numbers.filter((number) => !(number % divisor));
+const divisibleBy = (numbers, divisor) => numbers.filter((number) => !(number % divisor));

@@ -1,9 +1,9 @@
 function fakeBin(x) {
-  let newStringDigits = "";
+  let newStringDigits = '';
   for (let char of x) {
-    newStringDigits += char = Number(char) < 5 ? "0" : "1";
+    newStringDigits += char = Number(char) < 5 ? '0' : '1';
   }
   return newStringDigits;
 }
 
-console.log(fakeBin("45385593107843568"));
+console.log(fakeBin('45385593107843568'));

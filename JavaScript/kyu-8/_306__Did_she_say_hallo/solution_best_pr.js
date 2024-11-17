@@ -1,3 +1,3 @@
 function ensureQuestion(s) {
-  return s.endsWith("?") ? s : s + "?";
+  return s.endsWith('?') ? s : s + '?';
 }

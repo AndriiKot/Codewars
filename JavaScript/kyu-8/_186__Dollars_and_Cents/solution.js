@@ -1,5 +1,5 @@
 function formatMoney(amount) {
-  return "$" + amount.toFixed(2);
+  return '$' + amount.toFixed(2);
 }
 
 console.log(formatMoney(1.2345)); // $1.23

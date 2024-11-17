@@ -1,4 +1,4 @@
 function mystery() {
-  var results = { sanity: "Hello" };
+  var results = { sanity: 'Hello' };
   return results;
 }

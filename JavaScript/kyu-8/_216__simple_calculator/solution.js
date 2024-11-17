@@ -1,15 +1,15 @@
 function calculator(a, b, sign) {
   if (!isNaN(a) && !isNaN(b)) {
     switch (sign) {
-      case "+":
+      case '+':
         return a + b;
-      case "-":
+      case '-':
         return a - b;
-      case "*":
+      case '*':
         return a * b;
-      case "/":
+      case '/':
         return a / b;
     }
   }
-  return "unknown value";
+  return 'unknown value';
 }
