@@ -11,10 +11,7 @@ function howManySmaller(arr, n) {
 }
 {
   function howManySmaller(arr, n) {
-    return arr.reduce(
-      (count, num) => (Math.round(num * 100) / 100 < n ? count + 1 : count),
-      0
-    );
+    return arr.reduce((count, num) => (Math.round(num * 100) / 100 < n ? count + 1 : count), 0);
   }
 }
 

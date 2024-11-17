@@ -1,1 +1,1 @@
-let STRANGE_STRING = "ßooßs";
+const STRANGE_STRING = 'ßooßs';

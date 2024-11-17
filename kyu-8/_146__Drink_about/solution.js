@@ -1,14 +1,14 @@
 function peopleWithAgeDrink(old) {
-  let strAnswer = "";
+  let strAnswer = '';
 
   if (old < 14) {
-    strAnswer = "drink toddy";
+    strAnswer = 'drink toddy';
   } else if (old < 18) {
-    strAnswer = "drink coke";
+    strAnswer = 'drink coke';
   } else if (old < 21) {
-    strAnswer = "drink beer";
+    strAnswer = 'drink beer';
   } else {
-    strAnswer = "drink whisky";
+    strAnswer = 'drink whisky';
   }
   return strAnswer;
 }

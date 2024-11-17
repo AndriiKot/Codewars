@@ -1,6 +1,6 @@
 const getSize = (width, height, depth) => {
   const surfaceArea = 2 * (depth * width + depth * height + width * height);
-  return [surfaceArea,width * height * depth]
+  return [surfaceArea, width * height * depth];
 };
 
 // Sample Tests:

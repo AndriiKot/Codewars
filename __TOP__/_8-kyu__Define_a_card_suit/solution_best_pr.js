@@ -1,9 +1,9 @@
 function defineSuit(card) {
   cards = {
-    "♣": "clubs",
-    "♦": "diamonds",
-    "♥": "hearts",
-    "♠": "spades",
+    '♣': 'clubs',
+    '♦': 'diamonds',
+    '♥': 'hearts',
+    '♠': 'spades',
   };
 
   return cards[card.at(-1)];

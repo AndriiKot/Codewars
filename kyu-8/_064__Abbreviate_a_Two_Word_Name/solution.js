@@ -1,6 +1,6 @@
 function abbrevName(name) {
   return name
-    .split(" ")
+    .split(' ')
     .map((i) => i[0].toUpperCase())
-    .join(".");
+    .join('.');
 }

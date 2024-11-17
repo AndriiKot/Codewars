@@ -1,1 +1,1 @@
-var websites = Array.from({ length: 1000 }, () => "codewars");
+var websites = Array.from({ length: 1000 }, () => 'codewars');

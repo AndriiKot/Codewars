@@ -1,6 +1,6 @@
 class God {
   static create() {
-    return [new Man("Adam"), new Woman("Eve")];
+    return [new Man('Adam'), new Woman('Eve')];
   }
 }
 

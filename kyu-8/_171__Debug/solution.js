@@ -1,10 +1,7 @@
 function weatherInfo(temp) {
   var c = convertToCelsius(temp);
   let result;
-  result =
-    c < 0
-      ? c + " is freezing temperature"
-      : c + " is above freezing temperature";
+  result = c < 0 ? c + ' is freezing temperature' : c + ' is above freezing temperature';
   return result;
 }
 

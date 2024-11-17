@@ -1,6 +1,6 @@
 function Sleigh1() {
-  this.name = "Santa Claus";
-  this.password = "Ho Ho Ho!";
+  this.name = 'Santa Claus';
+  this.password = 'Ho Ho Ho!';
 }
 
 Sleigh1.prototype.authenticate = function (name, password) {

@@ -12,5 +12,3 @@ function squareOrSquareRoot2(array) {
   });
   return newArray;
 }
-
-

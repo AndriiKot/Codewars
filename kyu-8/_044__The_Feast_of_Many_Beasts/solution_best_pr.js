@@ -1,7 +1,5 @@
 function feast1(beast, dish) {
-  return (
-    beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
-  );
+  return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1];
 }
 
 function feast2(beast, dish) {

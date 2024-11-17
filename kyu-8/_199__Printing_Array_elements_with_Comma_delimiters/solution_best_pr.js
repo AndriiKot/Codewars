@@ -1,3 +1,3 @@
 function printArray(array) {
-  return array.join(",");
+  return array.join(',');
 }

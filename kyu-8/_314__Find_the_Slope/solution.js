@@ -3,7 +3,7 @@ function slope(points) {
   const y = points[3] - points[1];
   const x = points[2] - points[0];
   if (x === 0) {
-    result = "undefined";
+    result = 'undefined';
   } else {
     result = y / x;
   }

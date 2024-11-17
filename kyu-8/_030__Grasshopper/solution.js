@@ -1,1 +1,1 @@
-const combineNames = (first, last) => `${first} ${last}`
+const combineNames = (first, last) => `${first} ${last}`;

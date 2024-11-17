@@ -1,11 +1,5 @@
 const finalGrade1 = (exam, projects) => {
-  return exam > 90 || projects > 10
-    ? 100
-    : exam > 75 && projects >= 5
-    ? 90
-    : exam > 50 && projects >= 2
-    ? 75
-    : 0;
+  return exam > 90 || projects > 10 ? 100 : exam > 75 && projects >= 5 ? 90 : exam > 50 && projects >= 2 ? 75 : 0;
 };
 
 function finalGrade2(exam, projects) {

@@ -1,7 +1,7 @@
 const animals = {
-  name: "dog",
+  name: 'dog',
   legs: 4,
-  color: "white",
+  color: 'white',
 };
 
 function animal({ color, name, legs }) {

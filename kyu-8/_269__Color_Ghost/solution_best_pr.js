@@ -1,14 +1,12 @@
 // Codewars solution
 var Ghost1 = function () {
-  this.color = ["white", "yellow", "purple", "red"][
-    Math.floor(Math.random() * 4)
-  ];
+  this.color = ['white', 'yellow', 'purple', 'red'][Math.floor(Math.random() * 4)];
 };
 
 // My solution
 class Ghost {
   constructor() {
-    this.colors = ["white", "yellow", "purple", "red"];
+    this.colors = ['white', 'yellow', 'purple', 'red'];
     this.color = this.getRandomColor();
   }
 

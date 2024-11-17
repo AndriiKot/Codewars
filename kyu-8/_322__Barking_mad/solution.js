@@ -4,10 +4,10 @@ class Dog {
   }
 
   bark() {
-    return "Woof";
+    return 'Woof';
   }
 }
 
-const snoopy = new Dog("Beagle");
+const snoopy = new Dog('Beagle');
 
-const scoobydoo = new Dog("Great Dane");
+const scoobydoo = new Dog('Great Dane');

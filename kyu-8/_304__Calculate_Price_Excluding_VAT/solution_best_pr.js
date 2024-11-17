@@ -4,8 +4,7 @@
 }
 
 {
-  excludingVatPrice = (price) =>
-    price == null ? -1 : +(price / 1.15).toFixed(2);
+  excludingVatPrice = (price) => (price == null ? -1 : +(price / 1.15).toFixed(2));
 }
 
 // My Solution

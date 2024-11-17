@@ -3,5 +3,5 @@ function booleanToString(b) {
 }
 
 function booleanToString2(b) {
-  return b ? "true" : "false";
+  return b ? 'true' : 'false';
 }

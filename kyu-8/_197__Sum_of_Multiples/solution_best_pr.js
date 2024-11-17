@@ -1,11 +1,11 @@
 function sumMul1(n, m, s = 0) {
   for (var i = n; i < m; i += n) s += i;
-  return n >= m ? "INVALID" : s;
+  return n >= m ? 'INVALID' : s;
 }
 
 function sumMul2(n, m) {
   if (m <= 0 || n <= 0) {
-    return "INVALID";
+    return 'INVALID';
   }
   let res = 0;
   for (let i = 0; i < m; i += n) {
@@ -15,7 +15,7 @@ function sumMul2(n, m) {
 }
 
 function sumMul3(n, m) {
-  if (n >= m) return "INVALID";
+  if (n >= m) return 'INVALID';
 
   var sum = 0;
   for (var i = n; i < m; i += n) {
@@ -34,5 +34,5 @@ function sumMul(n, m) {
       n += step;
     }
   }
-  return res || "INVALID";
+  return res || 'INVALID';
 }

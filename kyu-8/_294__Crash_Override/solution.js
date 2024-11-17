@@ -1,5 +1,5 @@
 function aliasGen(name, lastName) {
-  let result = "Your name must start with a letter from A - Z.";
+  let result = 'Your name must start with a letter from A - Z.';
 
   const firstChrName = name.charAt(0);
   const firstChrSurname = lastName.charAt(0);

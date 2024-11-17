@@ -3,7 +3,6 @@ function powersOfTwo(n) {
   return arr;
 }
 
-
 // sample tests
 console.log(powersOfTwo(0)); // [1]
 console.log(powersOfTwo(1)); // [1, 2]

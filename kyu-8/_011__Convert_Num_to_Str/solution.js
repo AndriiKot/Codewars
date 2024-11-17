@@ -1,4 +1,3 @@
 function numberToString(num) {
-    return num + "";
+  return num + '';
 }
-

@@ -1,6 +1,6 @@
 function isPalindrome(x) {
   const str = `${x}`.toLocaleLowerCase();
-  const strReverse = str.split("").reverse().join("");
+  const strReverse = str.split('').reverse().join('');
   return str == strReverse;
 }
 

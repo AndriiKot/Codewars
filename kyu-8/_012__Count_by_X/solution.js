@@ -1,5 +1,5 @@
 function countBy(x, n) {
-  const arr = Array.from({ length: n }, (_, i, step = x) => ((i * step) + x));
+  const arr = Array.from({ length: n }, (_, i, step = x) => i * step + x);
   return arr;
 }
 

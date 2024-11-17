@@ -1,13 +1,6 @@
 function howMuchILoveYou(nbPetals) {
   let answer;
-  const answers = [
-    "I love you",
-    "a little",
-    "a lot",
-    "passionately",
-    "madly",
-    "not at all",
-  ];
+  const answers = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
 
   if (nbPetals < 7) {
     answer = answers[nbPetals - 1];

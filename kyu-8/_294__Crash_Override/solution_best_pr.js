@@ -1,13 +1,13 @@
 // Best Practice
 {
   function aliasGen(first, last) {
-    let auxFirst = first[0].toUpperCase();
-    let auxLast = last[0].toUpperCase();
+    const auxFirst = first[0].toUpperCase();
+    const auxLast = last[0].toUpperCase();
 
     if (firstName[auxFirst] && surname[auxLast]) {
-      return firstName[auxFirst] + " " + surname[auxLast];
+      return firstName[auxFirst] + ' ' + surname[auxLast];
     } else {
-      return "Your name must start with a letter from A - Z.";
+      return 'Your name must start with a letter from A - Z.';
     }
   }
 }
@@ -15,7 +15,7 @@
 // My Solution
 {
   function aliasGen(name, lastName) {
-    let result = "Your name must start with a letter from A - Z.";
+    let result = 'Your name must start with a letter from A - Z.';
 
     const firstChrName = name.charAt(0);
     const firstChrSurname = lastName.charAt(0);

@@ -1,4 +1,4 @@
 const quarterOf = (month) => {
-  let quarter = Math.ceil(month / 3);
+  const quarter = Math.ceil(month / 3);
   return quarter;
 };

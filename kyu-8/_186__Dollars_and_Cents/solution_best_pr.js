@@ -1,5 +1,5 @@
-let formatMoney = (amount) => `$${amount.toFixed(2)}`;
+const formatMoney = (amount) => `$${amount.toFixed(2)}`;
 
 function formatMoney2(amount) {
-  return "$" + amount.toFixed(2);
+  return '$' + amount.toFixed(2);
 }

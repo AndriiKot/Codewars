@@ -8,8 +8,8 @@ function whoIsPaying(name) {
   return arr;
 }
 
-console.log(whoIsPaying("Jenny"));
-console.log(whoIsPaying("Sam"));
-console.log(whoIsPaying("Sa"));
-console.log(whoIsPaying("S"));
-console.log(whoIsPaying(""));
+console.log(whoIsPaying('Jenny'));
+console.log(whoIsPaying('Sam'));
+console.log(whoIsPaying('Sa'));
+console.log(whoIsPaying('S'));
+console.log(whoIsPaying(''));

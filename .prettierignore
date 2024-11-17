@@ -1,0 +1,8 @@
+# .prettierignore
+dist
+node_modules
+coverage
+eslint.config.js
+prettier.config.js
+
+

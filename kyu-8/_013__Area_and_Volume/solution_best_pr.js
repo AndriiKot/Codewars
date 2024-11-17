@@ -5,11 +5,7 @@ function getSize1(width, height, depth) {
 }
 
 function getArea(box) {
-  return (
-    2 * (box.depth * box.height) +
-    2 * (box.width * box.height) +
-    2 * (box.width * box.depth)
-  );
+  return 2 * (box.depth * box.height) + 2 * (box.width * box.height) + 2 * (box.width * box.depth);
 }
 
 function getVolume(box) {

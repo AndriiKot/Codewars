@@ -4,5 +4,3 @@ function combat2(health, damage) {
   const result = health - damage;
   return result < 0 ? 0 : result;
 }
-
-
