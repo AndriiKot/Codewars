@@ -1,1 +1,1 @@
-ruby ".task-scripts/update_README_.rb"
+ruby "./task-scripts/update_README_.rb"
