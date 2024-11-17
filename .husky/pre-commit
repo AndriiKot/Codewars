@@ -5,5 +5,5 @@ changed_files=$(git diff --cached --name-only)
 if echo "$changed_files" | grep -vqE "README.md|^task-scripts/"; then
   npm run pre-commit
 else
-  echo "\033[1;33mPre-commit skipped, only changes in README.md or task-scripts directory.\033[0m"
+  echo "\n\nPre-commit skipped, only changes in README.md or task-scripts directory.\n\n"
 fi
