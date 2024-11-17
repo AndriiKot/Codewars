@@ -49,5 +49,5 @@ File.open('./README.md', 'w+') do |f|
 end
 
 system(`git add README.md`)
-system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md update"`)
+system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md' update"  --no-commit-hook`)
 
