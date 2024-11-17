@@ -1,14 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# Получаем список измененных файлов в коммите
 changed_files=$(git diff --cached --name-only)
-
-# Проверяем, содержит ли измененные файлы только README.md
-if echo "$changed_files" | grep -qv "README.md"; then
-  # Если есть изменения кроме README.md, выполняем npm run pre-commit
+if echo "$changed_files" | grep -vqE "README.md|^task-scripts/"; then
   npm run pre-commit
 else
-  # Если изменений только в README.md, пропускаем pre-commit
-  echo "Пре-коммит пропущен, изменения только в README.md"
+  echo "\033[1;33mPre-commit skipped, only changes in README.md or task-scripts directory.\033[0m"
 fi
