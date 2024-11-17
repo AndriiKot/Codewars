@@ -49,5 +49,7 @@ File.open('./README.md', 'w+') do |f|
 end
 
 system(`git add .`)
+system('git status')
+gets
 system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md update"`)
-system(`git push`)
+
