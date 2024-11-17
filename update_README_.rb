@@ -13,9 +13,9 @@ if response.code == '200'
   res = response.body
 
   data = JSON.parse(res)
-  
+
   user_name = data['username']
-  
+
   template = "# [#{user_name}](https://www.codewars.com/users/AndriiKot) \n"
 
   hash_languages = data["ranks"]["languages"]
@@ -27,7 +27,7 @@ if response.code == '200'
 
   hash_languages.each do |key, value|
     if key == 'javascript'
-      template += <<~EOF  
+      template += <<~EOF
         ## JavaScript
 
 	##### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
@@ -48,6 +48,6 @@ File.open('./README.md', 'w+') do |f|
   f.puts(template)
 end
 
-system(`git add .`)
-system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md update"`)
-system(`git push`)
+# system(`git add .`)
+# system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md update"`)
+# system(`git push`)
