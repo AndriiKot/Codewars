@@ -44,11 +44,12 @@ if response.code == '200'
 
 end
 
-File.open('./README.md', 'w+') do |f|
+File.open('../README.md', 'w+') do |f|
   f.puts(template)
 end
 
 system(`git add README.md`)
 system(`git status`)
-system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md update'"  --no-verify`)
+system('git commit -m "some" --no-verify')
+# system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md update'"`)
 
