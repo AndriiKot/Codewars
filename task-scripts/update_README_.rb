@@ -51,6 +51,6 @@ end
 system(`git add README.md`)
 system(`git status`)
 gets
-system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md' update"  --no-commit-hook`)
+system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md update'"  --no-commit-hook`)
 gets
 
