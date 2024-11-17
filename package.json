@@ -2,8 +2,11 @@
   "name": "javascript_codewars",
   "version": "1.0.0",
   "description": "My solutions to problems on CodeWars (AndriiKot).",
+  "type": "module",
   "scripts": {
-    "pre-commit": "eslint --fix",
+    "pre-commit": "npm run lint && npm run format",
+    "lint": "eslint --fix",
+    "format": "prettier --write .",
     "prepare": "husky"
   },
   "keywords": [
@@ -13,7 +16,7 @@
   "author": "AndriiKot",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^9.14.0",
+    "eslint": "^9.15.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.12.0",

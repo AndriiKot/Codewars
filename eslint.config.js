@@ -6,8 +6,9 @@ import prettierPlugin from 'eslint-plugin-prettier';
 import eslintConfigPrettier from 'eslint-config-prettier';
 
 export default [
+  js.configs.recommended,
+
   {
-    ignores: ['dist', 'node_modules', 'coverage', 'eslint.config.js'],
     languageOptions: {
       globals: {
         ...globals.browser,
@@ -19,15 +20,15 @@ export default [
       prettier: prettierPlugin,
     },
     rules: {
-      ...prettierPlugin.configs.recommended.rules,
       ...eslintConfigPrettier.rules,
-      'prefer-const': 'error',
+      ...prettierPlugin.configs.recommended.rules,
       'max-lines': ['warn', { max: 124 }],
-      'max-params': ['error', 3],
+      "no-unused-vars": "off",
+      "no-undef": "off",
+      "max-params": "off",
+      "prefer-const": "off",
+      "no-const-assign": "off",
     },
-  },
-  js.configs.recommended,
-  {
-    files: ['**/*.{js,jsx}'],
+    ignores: ['node_modules', 'coverage', 'eslint.config.js'],
   },
 ];

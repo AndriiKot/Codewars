@@ -1,5 +1,7 @@
-function trueOrFalse(val) {
-  return val ? "true" : "false";
+{
+  function trueOrFalse(val) {
+    return val ? 'true' : 'false';
+  }
 }
 
 // Best Practice
