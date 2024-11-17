@@ -3,14 +3,8 @@
   "version": "1.0.0",
   "description": "My solutions to problems on CodeWars (AndriiKot).",
   "scripts": {
-    "pre-commit": "lint-staged",
+    "pre-commit": "eslint --fix",
     "prepare": "husky"
-  },
-  "lint-staged": {
-    "**/*.{js,jsx,tsx,ts,less,scss,md,json}": [
-      "eslint --fix",
-      "prettier --write"
-    ]
   },
   "keywords": [
     "JavaScript",
@@ -24,7 +18,6 @@
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.12.0",
     "husky": "^9.1.6",
-    "lint-staged": "^15.2.10",
     "prettier": "^3.3.3"
   }
 }

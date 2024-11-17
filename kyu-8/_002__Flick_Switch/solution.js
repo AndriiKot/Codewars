@@ -8,5 +8,5 @@ function flickSwitch(arr) {
   return newArr;
 }
 
-const testArray = ['bicycle', 'jarmony', 'flick', 'sheep', 'flick'];
+const testArray = ['bicycle', 'jarmony', 'flick', 'sheep', 'flick']
 console.log(flickSwitch(testArray));
