@@ -7,6 +7,7 @@ http.use_ssl = (url.scheme == 'https')
 
 request = Net::HTTP::Get.new(url.request_uri)
 
+
 response = http.request(request)
 
 if response.code == '200'
