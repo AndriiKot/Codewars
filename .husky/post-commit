@@ -1,1 +1,1 @@
-git push
+ruby ".task-scripts/update_README_.rb"
