@@ -44,7 +44,7 @@ if response.code == '200'
 
 end
 
-File.open('../README.md', 'w+') do |f|
+File.open('./README.md', 'w+') do |f|
   f.puts(template)
 end
 
