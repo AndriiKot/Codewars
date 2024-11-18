@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+if git diff --cached --name-only | grep -q "^JavaScript/"; then
+    echo "Коммит запрещен: изменения в директории 'forbidden-dir' не могут быть закоммичены."
+    exit 1
+fi
+
