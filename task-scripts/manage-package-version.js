@@ -4,7 +4,7 @@ import { execSync } from "node:child_process";
 
 console.log("test");
 
-const packageJsonPath = path.join(process.cwd(), "../package.json");
+const packageJsonPath = path.join(process.cwd(), "package.json");
 
 console.log(packageJsonPath);
 
