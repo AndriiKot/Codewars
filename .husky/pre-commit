@@ -19,3 +19,4 @@ if [ "$commit_denied" = true ]; then
 fi
 
 ruby ./task-scripts/update_README_.rb
+git add README.md
