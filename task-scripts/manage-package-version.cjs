@@ -1,7 +1,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { execSync } = require('node:child_process');
-const { green } = require('chalk'); 
+const { green } = require('chalk');
+
+console.log(green('TESTING'));
 
 const packageJsonPath = path.join(__dirname, '../package.json');
 const versionTag = execSync('git describe --tags --abbrev=0').toString().trim();
