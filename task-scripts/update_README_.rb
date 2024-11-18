@@ -29,10 +29,15 @@ if response.code == '200'
     if key == 'javascript'
       template += <<~EOF
         ## JavaScript
-	##### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
+
+      	##### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
+
         #### JavaScript rank: #{value['name']}
+
         #### JavaScript score: #{value['score']}
+
         ##### [8-kyu: #{folders_count_8}](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-8)
+
       EOF
     end
   end
@@ -43,6 +48,3 @@ File.open('./README.md', 'w+') do |f|
   f.puts(template)
 end
 
-#system(`git add .`)
-#system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md update" --no-verify`)
-#system(`git push`)
