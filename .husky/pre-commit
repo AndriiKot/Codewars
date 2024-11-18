@@ -1,3 +1,5 @@
+node "./task-scripts/manage-package-version.cjs"
+
 changed_files=$(git diff --cached --name-only)
 
 if [ -z "$changed_files" ]; then
