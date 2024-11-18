@@ -1,0 +1,12 @@
+node "./task-scripts/manage-package-version.js"
+
+changed_files=$(git diff --cached --name-only)
+
+if [ -z "$changed_files" ]; then
+  echo "No changes to commit, skipping pre-commit."
+  exit 0
+fi
+
+ruby "./task-scripts/update_README_.rb"
+git add README.md
+
