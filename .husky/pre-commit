@@ -1,5 +1,4 @@
 node "./task-scripts/manage-package-version.js"
-git add package.json
 
 changed_files=$(git diff --cached --name-only)
 

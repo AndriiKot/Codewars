@@ -28,6 +28,7 @@ try {
     execSync("git add package.json");
     console.log(`\x1b[32m\n
 Updated package.json version to ${newVersion}\n\x1b[0m`);
+
   } else {
     console.log("Version is already up to date.");
   }
