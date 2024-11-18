@@ -30,11 +30,17 @@ if response.code == '200'
     if key == 'sql'
       template += <<~EOF  
         ## SQL
+
         ##### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
+
         #### SQL rank: #{value['name']}
+
         #### SQL score: #{value['score']}
+
         ##### [7-kyu: #{folders_count_7}](https://github.com/AndriiKot/SQL__CodeWars/tree/main/kyu-7)
+
         ##### [8-kyu: #{folders_count_8}](https://github.com/AndriiKot/SQL__CodeWars/tree/main/kyu-8)
+
       EOF
     end
   end
