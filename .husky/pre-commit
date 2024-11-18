@@ -1,6 +1,6 @@
 #!/bin/bash
 
-node "./task-scripts/manage-package-version.js"
+node "./task-scripts/manager-package-version.js"
 
 commit_denied=false
 
