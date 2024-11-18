@@ -5,6 +5,11 @@ git status
 git add README.md
 git status
 
+if [ -z "$changed_files" ]; then
+  echo "Нет изменений для коммита, пропускаем pre-commit."
+  exit 0
+fi
+
 if echo "$changed_files" | grep -vqE "README.md|^task-scripts/"; then
   npm run pre-commit
 else
