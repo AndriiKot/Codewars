@@ -1,1 +1,2 @@
+git push origin --tags --no-verify
 git push
