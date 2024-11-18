@@ -2,6 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { execSync } from "node:child_process";
 
+console.log('test');
+
 const packageJsonPath = path.join(process.cwd(), "../package.json");
 
 try {
