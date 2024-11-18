@@ -1,16 +1,14 @@
 changed_files=$(git diff --cached --name-only)
 
-ruby "./task-scripts/update_README_.rb"
-git status
-git add README.md
-git status
-
 if [ -z "$changed_files" ]; then
-  echo "Нет изменений для коммита, пропускаем pre-commit."
+  echo "No changes to commit, skipping pre-commit."
   exit 0
 fi
 
-if echo "$changed_files" | grep -vqE "README.md|^task-scripts/"; then
+ruby "./task-scripts/update_README_.rb"
+git add README.md
+
+if echo "$changed_files" | grep -vqE "README.md|^task-scripts/|^.husky/"; then
   npm run pre-commit
 else
   echo "Pre-commit lint and form skipped, only changes in README.md or task-scripts directory."
