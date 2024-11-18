@@ -2,9 +2,11 @@ import fs from "node:fs";
 import path from "node:path";
 import { execSync } from "node:child_process";
 
-console.log('test');
+console.log("test");
 
 const packageJsonPath = path.join(process.cwd(), "../package.json");
+
+console.log(packageJsonPath);
 
 try {
   const versionTag = execSync("git describe --tags --abbrev=0")
@@ -21,6 +23,7 @@ try {
   const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, "utf-8"));
 
   if (packageJson.version !== newVersion) {
+    console.log("!!!testing new version!!!");
     packageJson.version = newVersion;
     fs.writeFileSync(
       packageJsonPath,
@@ -30,7 +33,6 @@ try {
     execSync("git add package.json");
     console.log(`\x1b[32m\n
 Updated package.json version to ${newVersion}\n\x1b[0m`);
-
   } else {
     console.log("Version is already up to date.");
   }
