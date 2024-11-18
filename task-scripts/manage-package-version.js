@@ -2,18 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 import { execSync } from "node:child_process";
 
-console.log("test");
-
 const packageJsonPath = path.join(process.cwd(), "package.json");
-
-console.log(packageJsonPath);
 
 try {
   const versionTag = execSync("git describe --tags --abbrev=0")
     .toString()
     .trim();
 
-  // Проверка на пустую строку или неправильный формат
   if (!versionTag || !/^version_(\d+)_([\d]+)_([\d]+)$/.test(versionTag)) {
     console.error("Tag must be in the format version_X_Y_Z");
     process.exit(1);
