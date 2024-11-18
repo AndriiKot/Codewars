@@ -65,4 +65,3 @@ end
 File.open('./README.md', 'w+') do |f|
   f.puts(template)
 end
-
