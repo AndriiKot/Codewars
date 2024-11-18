@@ -28,6 +28,7 @@ if response.code == '200'
   hash_languages.each do |key, value|
     if key == 'javascript'
       template += <<~EOF
+
         ## JavaScript
 
       	##### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
