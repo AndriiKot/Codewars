@@ -1,6 +1,6 @@
 {
   "name": "javascript_codewars",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "My solutions to problems on CodeWars (AndriiKot).",
   "type": "module",
   "scripts": {

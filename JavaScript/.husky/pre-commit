@@ -1,3 +1,17 @@
-npm run pre-commit
+node "./task-scripts/manage-package-version.cjs"
 
- 
+changed_files=$(git diff --cached --name-only)
+
+if [ -z "$changed_files" ]; then
+  echo "No changes to commit, skipping pre-commit."
+  exit 0
+fi
+
+ruby "./task-scripts/update_README_.rb"
+git add README.md
+
+if echo "$changed_files" | grep -vqE "README.md|^task-scripts/|^.husky/"; then
+  npm run pre-commit
+else
+  echo "Pre-commit lint and form skipped, only changes in README.md or task-scripts directory."
+fi

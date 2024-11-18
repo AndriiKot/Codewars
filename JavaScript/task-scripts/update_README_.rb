@@ -1,4 +1,4 @@
-﻿require 'net/http'
+require 'net/http'
 require 'json'
 
 url = URI.parse('https://www.codewars.com/api/v1/users/AndriiKot')
@@ -13,9 +13,9 @@ if response.code == '200'
   res = response.body
 
   data = JSON.parse(res)
-  
+
   user_name = data['username']
-  
+
   template = "# [#{user_name}](https://www.codewars.com/users/AndriiKot) \n"
 
   hash_languages = data["ranks"]["languages"]
@@ -27,12 +27,18 @@ if response.code == '200'
 
   hash_languages.each do |key, value|
     if key == 'javascript'
-      template += <<~EOF  
+      template += <<~EOF
+
         ## JavaScript
-	##### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
+
+      	##### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
+
         #### JavaScript rank: #{value['name']}
+
         #### JavaScript score: #{value['score']}
+
         ##### [8-kyu: #{folders_count_8}](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-8)
+
       EOF
     end
   end
@@ -43,6 +49,3 @@ File.open('./README.md', 'w+') do |f|
   f.puts(template)
 end
 
-system(`git add .`)
-system(`git commit -m "JavaScript CodeWars 'Current Status ' or 'README.md update"`)
-system(`git push`)
