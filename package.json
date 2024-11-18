@@ -1,0 +1,18 @@
+{
+  "name": "javascript_codewars",
+  "version": "1.0.0",
+  "description": "My solutions to problems on CodeWars (AndriiKot).",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "keywords": [
+    "SQL",
+    "CodeWars"
+  ],
+  "author": "AndriiKot",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.6",
+  }
+}
