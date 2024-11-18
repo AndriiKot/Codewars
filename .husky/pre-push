@@ -14,3 +14,7 @@ if [ "$commit_denied" = true ]; then
     exit 1
 fi
 
+ruby ./task-scripts/update_all_projects.rb
+ruby ./task-scripts/update_README_.rb
+
+

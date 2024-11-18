@@ -25,14 +25,24 @@ if response.code == '200'
  
   template = <<~EOF
   # [#{user_name}](https://www.codewars.com/users/AndriiKot)
+
   ## [CodeWars Profile](https://www.codewars.com/users/AndriiKot)
+
   #### As of #{time.strftime("%Y-%m-%d %H:%M:%S")} uploaded:
+
   ### General Statistics
+
   #### Rank: #{overall_kyu}
+
   #### Honor: #{honor}
+
   #### Score: #{score}
+
   #### Leaderboard Position: #{position}
+
   #### Total Completed Kata: #{total}
+
+
   EOF
 
   hash_languages = data["ranks"]["languages"]
@@ -42,8 +52,11 @@ if response.code == '200'
     template += <<~EOF  
     
     ## [#{hash_convert[key]}](#{hash_links[key]})
+
     #### Rank: #{value['name']}
+
     #### Score: #{value['score']}
+
     EOF
   end
 
@@ -53,6 +66,3 @@ File.open('./README.md', 'w+') do |f|
   f.puts(template)
 end
 
-system(`git add .`)
-system(`git commit -m "CodeWars 'Current Status'"`)
-system(`git push`)
