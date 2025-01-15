@@ -26,6 +26,7 @@ if response.code == '200'
   time = Time.now
 
   hash_languages.each do |key, value|
+    p key, value
     if key == 'python'
       template += <<~EOF
         ## Python
