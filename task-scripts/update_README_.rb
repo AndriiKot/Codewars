@@ -13,16 +13,16 @@ if response.code == '200'
   res = response.body
 
   data = JSON.parse(res)
-  
+
   user_name = data['username']
   overall_kyu = data['ranks']['overall']['name']
   honor = data['honor']
   position = data['leaderboardPosition']
   score = data['ranks']['overall']['score']
   total = data['codeChallenges']['totalCompleted']
-  
+
   time = Time.now
- 
+
   template = <<~EOF
   # [#{user_name}](https://www.codewars.com/users/AndriiKot)
 
@@ -46,11 +46,15 @@ if response.code == '200'
   EOF
 
   hash_languages = data["ranks"]["languages"]
-  hash_convert = { 'sql' => 'SQL', 'javascript' => 'JavaScript', 'python' => 'Python' }
-  hash_links = {'sql' => 'https://github.com/AndriiKot/SQL__CodeWars', 'javascript' => 'https://github.com/AndriiKot/JavaScript__CodeWars', 'python' => 'https://github.com/AndriiKot/Python__CodeWars',}
+  hash_convert = { 'sql' => 'SQL', 'javascript' => 'JavaScript', 'python' => 'Python', 'ruby' => 'Ruby' }
+  hash_links = {'sql' => 'https://github.com/AndriiKot/SQL__CodeWars',
+                'javascript' => 'https://github.com/AndriiKot/JavaScript__CodeWars',
+                'python' => 'https://github.com/AndriiKot/Python__CodeWars',
+                'ruby' => 'https://github.com/AndriiKot/Ruby__CodeWars',
+              }
   hash_languages.each do |key, value|
-    template += <<~EOF  
-    
+    template += <<~EOF
+
     ## [#{hash_convert[key]}](#{hash_links[key]})
 
     #### Rank: #{value['name']}
