@@ -37,7 +37,7 @@ if response.code == '200'
 
         #### Python score: #{value['score']}
 
-        ##### [8-kyu: #{folders_count_8}]()
+        ##### [8-kyu: #{folders_count_8}](https://github.com/AndriiKot/Python__CodeWars/tree/main/kyu-8/)
 
       EOF
     end
