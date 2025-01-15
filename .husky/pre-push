@@ -10,6 +10,18 @@ if git diff --cached --name-only | grep -q "^SQL/"; then
     commit_denied=true
 fi
 
+if git diff --cached --name-only | grep -q "^Python/"; then
+    git reset Python
+    echo -e "\033[31mCommit denied: changes in the 'Python' directory cannot be committed.\033[0m"
+    commit_denied=true
+fi
+
+if git diff --cached --name-only | grep -q "^Ruby/"; then
+    git reset Ruby
+    echo -e "\033[31mCommit denied: changes in the 'Ruby' directory cannot be committed.\033[0m"
+    commit_denied=true
+fi
+
 if [ "$commit_denied" = true ]; then
     exit 1
 fi
