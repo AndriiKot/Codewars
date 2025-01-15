@@ -2,7 +2,7 @@
 
 ## [CodeWars Profile](https://www.codewars.com/users/AndriiKot)
 
-#### As of 2025-01-15 15:21:28 uploaded:
+#### As of 2025-01-15 15:30:57 uploaded:
 
 ### General Statistics
 
@@ -32,7 +32,7 @@
 #### Score: 200
 
 
-## []()
+## [Python](https://github.com/AndriiKot/Python__CodeWars)
 
 #### Rank: 8 kyu
 
