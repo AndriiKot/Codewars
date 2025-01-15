@@ -12,3 +12,8 @@ end
 update('./task-scripts/update_all_projects.rb')
 update('./task-scripts/update_README_.rb')
 update('./task-scripts/manager-package-version.js')  
+
+system('git add package.json')
+system('git commit -m "UPDATE PROJECT"')
+
+
