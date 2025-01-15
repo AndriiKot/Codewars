@@ -1,5 +1,7 @@
 def update(script)
-  system(`ruby #{script}`)
+  command = script.end_with?('.js') ? "node #{script}" : "ruby #{script}"
+  
+  system(command)
   if $?.exitstatus != 0
     puts "#{script} terminated with an error."
   else
@@ -8,5 +10,5 @@ def update(script)
 end
 
 update('./task-scripts/update_all_projects.rb')
-update('./task-scripts/update_README_.rb.rb')
-
+update('./task-scripts/update_README_.rb')
+update('./task-scripts/manager-package-version.js')  
