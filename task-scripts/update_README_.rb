@@ -1,7 +1,7 @@
 ﻿require 'net/http'
 require 'json'
 
-url = URI.parse('https://codewars.com/api/v1/users/AndriiKot')
+url = URI.parse('https://www.codewars.com/api/v1/users/AndriiKot')
 http = Net::HTTP.new(url.host, url.port)
 http.use_ssl = (url.scheme == 'https')
 
@@ -25,8 +25,8 @@ if response.code == '200'
 
   time = Time.now
 
+
   hash_languages.each do |key, value|
-    p key, value
     if key == 'python'
       template += <<~EOF
         ## Python
@@ -36,8 +36,6 @@ if response.code == '200'
         #### Python rank: #{value['name']}
 
         #### Python score: #{value['score']}
-
-        ##### [7-kyu: #{folders_count_7}]()
 
         ##### [8-kyu: #{folders_count_8}]()
 
