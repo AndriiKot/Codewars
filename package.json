@@ -4,7 +4,7 @@
   "description": "My solutions to problems on CodeWars (AndriiKot).",
   "type": "module",
   "scripts": {
-    "pre-commit": "npm run lint && npm run format",
+    "pre-commit": "npm run format && npm run lint",
     "lint": "eslint --fix",
     "format": "prettier --write .",
     "prepare": "husky"
