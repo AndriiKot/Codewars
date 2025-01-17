@@ -1,3 +1,3 @@
 function disemvowel(str) {
-  return str.replace(/[aoieu]/ig, '')
+  return str.replace(/[aoieu]/gi, '');
 }
