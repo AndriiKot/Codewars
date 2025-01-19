@@ -10,10 +10,4 @@ fi
 ruby "./task-scripts/update_README_.rb"
 git add README.md
 
-if echo "$changed_files" | grep -vqE "README.md|^task-scripts/|^.husky/"; then
-  npm run pre-commit
-else
-  echo "Pre-commit lint and form skipped, only changes in README.md or task-scripts directory."
-fi
-
 npm run pre-commit
