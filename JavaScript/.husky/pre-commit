@@ -11,3 +11,4 @@ ruby "./task-scripts/update_README_.rb"
 git add README.md
 
 npm run pre-commit
+git add .
