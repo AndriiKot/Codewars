@@ -1,1 +1,1 @@
-const solution = s => [...s].reverse().join('')
+const solution = (s) => [...s].reverse().join('');

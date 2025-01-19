@@ -1,1 +1,1 @@
-solution = (str) => str.split('').reverse().join('')
+solution = (str) => str.split('').reverse().join('');
