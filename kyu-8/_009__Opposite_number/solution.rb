@@ -1,0 +1,1 @@
+def opposite(number) = -number
