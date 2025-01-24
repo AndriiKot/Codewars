@@ -20,7 +20,8 @@ if response.code == '200'
 
   hash_languages = data["ranks"]["languages"]
 
-  kyu_6, kyu_7, kyu_8 = "./kyu-6", "./kyu-7/", "./kyu-8/"
+  kyu_5, kyu_6, kyu_7, kyu_8 = "./kyu-5", "./kyu-6", "./kyu-7/", "./kyu-8/"
+  folders_count_5 = Dir.glob("#{kyu_5}").count
   folders_count_6 = Dir.glob("#{kyu_6}/*").count
   folders_count_7 = Dir.glob("#{kyu_7}/*").count
   folders_count_8 = Dir.glob("#{kyu_8}/*").count
@@ -38,6 +39,8 @@ if response.code == '200'
         #### JavaScript rank: #{value['name']}
 
         #### JavaScript score: #{value['score']}
+
+        ##### [5-kyu: #{folders_count_5}](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-5)
 
         ##### [6-kyu: #{folders_count_6}](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-6)
 
