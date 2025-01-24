@@ -20,7 +20,8 @@ if response.code == '200'
 
   hash_languages = data["ranks"]["languages"]
 
-  kyu_7, kyu_8 = "./kyu-7/", "./kyu-8/"
+  kyu_6, kyu_7, kyu_8 = "./kyu-6/", "./kyu-7/", "./kyu-8/"
+  folders_count_6 = Dir.glob("#{kyu_6}").count
   folders_count_7 = Dir.glob("#{kyu_7}/*").count
   folders_count_8 = Dir.glob("#{kyu_8}/*").count
 
@@ -37,6 +38,8 @@ if response.code == '200'
         #### Python rank: #{value['name']}
 
         #### Python score: #{value['score']}
+
+        ##### [6-kyu: #{folders_count_6}](https://github.com/AndriiKot/Python__CodeWars/tree/main/kyu-6)
 
         ##### [7-kyu: #{folders_count_7}](https://github.com/AndriiKot/Python__CodeWars/tree/main/kyu-7)
 
