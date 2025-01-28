@@ -21,8 +21,8 @@ if response.code == '200'
   hash_languages = data["ranks"]["languages"]
 
   kyu_5, kyu_6, kyu_7, kyu_8 = "./kyu-5", "./kyu-6/", "./kyu-7/", "./kyu-8/"
-  folders_count_5 = Dir.glob("#{kyu_5}").count
-  folders_count_6 = Dir.glob("#{kyu_6}").count
+  folders_count_5 = Dir.glob("#{kyu_5}/*").count
+  folders_count_6 = Dir.glob("#{kyu_6}/*").count
   folders_count_7 = Dir.glob("#{kyu_7}/*").count
   folders_count_8 = Dir.glob("#{kyu_8}/*").count
 
