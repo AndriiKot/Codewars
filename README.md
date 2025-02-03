@@ -2,13 +2,13 @@
 
 ## JavaScript
 
-##### As of 2025-02-02 16:53:12 uploaded:
+##### As of 2025-02-03 09:47:02 uploaded:
 
 #### JavaScript rank: 4 kyu
 
-#### JavaScript score: 856
+#### JavaScript score: 877
 
-##### [5-kyu: 7](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-5)
+##### [5-kyu: 8](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-5)
 
 ##### [6-kyu: 2](https://github.com/AndriiKot/JavaScript__CodeWars/tree/main/kyu-6)
 
