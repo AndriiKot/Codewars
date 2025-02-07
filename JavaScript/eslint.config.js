@@ -28,6 +28,7 @@ export default [
       "max-params": "off",
       "prefer-const": "off",
       "no-const-assign": "off",
+      "no-useless-escape": "off",
     },
     ignores: ['node_modules', 'coverage', 'eslint.config.js'],
   },
