@@ -1,0 +1,1 @@
+def basic_op(op, v1, v2) = v1.method(op.to_sym)[v2]
