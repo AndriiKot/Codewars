@@ -1,11 +1,11 @@
 # [AndriiKot](https://www.codewars.com/users/AndriiKot) 
 ## Ruby
 
-##### As of 2025-02-19 13:33:25 uploaded:
+##### As of 2025-02-26 20:18:39 uploaded:
 
 #### Ruby rank: 5 kyu
 
-#### Ruby score: 509
+#### Ruby score: 511
 
 ##### [5-kyu: 15](https://github.com/AndriiKot/Ruby__CodeWars/tree/main/kyu-5)
 
@@ -13,5 +13,5 @@
 
 ##### [7-kyu: 16](https://github.com/AndriiKot/Ruby__CodeWars/tree/main/kyu-7)
 
-##### [8-kyu: 29](https://github.com/AndriiKot/Ruby__CodeWars/tree/main/kyu-8)
+##### [8-kyu: 30](https://github.com/AndriiKot/Ruby__CodeWars/tree/main/kyu-8)
 
