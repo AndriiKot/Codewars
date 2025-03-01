@@ -1,11 +1,11 @@
 # [AndriiKot](https://www.codewars.com/users/AndriiKot) 
 ## Python
 
-##### As of 2025-03-01 18:41:50 uploaded:
+##### As of 2025-03-01 18:54:18 uploaded:
 
 #### Python rank: 5 kyu
 
-#### Python score: 473
+#### Python score: 475
 
 ##### [5-kyu: 13](https://github.com/AndriiKot/Python__CodeWars/tree/main/kyu-5)
 
@@ -13,5 +13,5 @@
 
 ##### [7-kyu: 14](https://github.com/AndriiKot/Python__CodeWars/tree/main/kyu-7)
 
-##### [8-kyu: 35](https://github.com/AndriiKot/Python__CodeWars/tree/main/kyu-8)
+##### [8-kyu: 36](https://github.com/AndriiKot/Python__CodeWars/tree/main/kyu-8)
 
