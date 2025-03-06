@@ -1,0 +1,1 @@
+def check(arr,el) = arr.include? el
