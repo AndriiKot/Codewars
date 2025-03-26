@@ -1,0 +1,4 @@
+SELECT
+  POWER(n, 3)::INTEGER AS res
+FROM
+  nums;
