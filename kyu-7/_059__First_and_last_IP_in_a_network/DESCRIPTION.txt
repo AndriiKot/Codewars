@@ -1,0 +1,17 @@
+Task
+
+Given a table where users' 
+connections are logged, 
+find the first and the last address 
+of the networks they connected from.
+
+Notes
+
+Order the result by the id column
+There's no need to validate anything - 
+it's okay if the user connects from a private network
+(You don't need the connection_time field 
+for this task but without it the input data looks too dull)
+You can read more about IPv4 on Wikipedia
+(check the First and last subnet addresses section 
+if you need an example/explanation related to this task only)
