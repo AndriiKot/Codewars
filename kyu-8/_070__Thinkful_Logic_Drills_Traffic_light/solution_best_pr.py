@@ -1,0 +1,1 @@
+update_light = {"green":"yellow", "yellow":"red", "red":"green"}.get
