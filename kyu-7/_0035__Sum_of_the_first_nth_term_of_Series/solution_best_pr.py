@@ -1,7 +1,7 @@
-function SeriesSum(n) {
-  for (var s = 0, i = 0; i < n; i++) {
-    s += 1 / (1 + i * 3);
-  }
+def series_sum(n):
+    return '{:.2f}'.format(sum(1.0/(3 * i + 1) for i in range(n)))
 
-  return s.toFixed(2);
-}
+
+# or
+# def series_sum(n):
+#     return f'{sum(1/d for d in range(1,n*3,3)):.2f}'
