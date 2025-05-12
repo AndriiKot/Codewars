@@ -1,4 +1,7 @@
-def duplicate_encode(word):
-    word = word.lower()
-    uniq_letters = set(word)
-    return ''.join('(' if word.count(char) == 1 else ')' for char in word)
+function duplicateEncode(word, res = ''){
+  word = word.toLowerCase();
+  for (let i = 0; i < word.length; i++) {
+    res += word.split(word[i]).length - 1 == 1 ? '(' : ')'
+  };
+  return res;
+}
