@@ -1,0 +1,1 @@
+def sequence_sum(b,e,s) = [*((b..e).%s)].sum
