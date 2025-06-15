@@ -2,19 +2,19 @@
 
 ## [CodeWars Profile](https://www.codewars.com/users/AndriiKot)
 
-#### As of 2025-06-14 21:52:52 uploaded:
+#### As of 2025-06-15 11:44:16 uploaded:
 
 ### General Statistics
 
 #### Rank: 4 kyu
 
-#### Honor: 1483
+#### Honor: 1491
 
-#### Score: 1613
+#### Score: 1621
 
-#### Leaderboard Position: 16409
+#### Leaderboard Position: 16256
 
-#### Total Completed Kata: 501
+#### Total Completed Kata: 502
 
 
 
@@ -22,7 +22,7 @@
 
 #### Rank: 4 kyu
 
-#### Score: 1418
+#### Score: 1426
 
 
 ## [SQL](https://github.com/AndriiKot/SQL__CodeWars)
@@ -43,5 +43,5 @@
 
 #### Rank: 4 kyu
 
-#### Score: 917
+#### Score: 925
 
