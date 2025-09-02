@@ -1,3 +1,3 @@
-def goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals)
-  laLigaGoals + copaDelReyGoals + championsLeagueGoals
+def goals(*goals)
+  goals.sum
 end
