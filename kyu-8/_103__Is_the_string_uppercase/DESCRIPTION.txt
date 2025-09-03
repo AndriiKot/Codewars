@@ -1,16 +1,23 @@
 Description:
 
-Terminal game move function
-In this game, the hero moves from left to right. 
-The player rolls the die and 
-moves the number 
-of spaces indicated by the die two times.
+Is the string uppercase?
+Task
+Create a method to see whether the string is ALL CAPS.
 
-Create a function for 
-the terminal game that 
-takes the current position 
-of the hero and the roll (1-6) 
-and return the new position.
+Examples (input -> output)
+"c" -> False
+"C" -> True
+"hello I AM DONALD" -> False
+"HELLO I AM DONALD" -> True
+"ACSKLDFJSgSKLDFJSKLDFJ" -> False
+"ACSKLDFJSGSKLDFJSKLDFJ" -> True
 
-Example:
-move(3, 6) should equal 15
+In this Kata, a string is said 
+to be in ALL CAPS whenever 
+it does not contain any 
+lowercase letter 
+so any string containing 
+no letters at all is trivially 
+considered to be in ALL CAPS.
+
+
