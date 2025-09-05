@@ -1,11 +1,10 @@
-def sale_hotdogs(n)
-  discount_map = {
-    ->(x) { x >= 10 }         => 90,
-    ->(x) { (5...10).include? x } => 95,
-    ->(_) { true }          => 100
-  }
-  price = discount_map.find { |cond, _| cond[n] }.last
-  price * n
-end
+PRICES = {
+  10 => 90,
+  5 => 95,
+  1 => 100,
+  0 => 0,
+}
 
-p sale_hotdogs(5)  
+def sale_hotdogs(n)
+  n * PRICES.find { |(quantity, unit_price)| n >= quantity }.last
+end
