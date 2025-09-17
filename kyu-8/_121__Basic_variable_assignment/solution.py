@@ -1,3 +1,3 @@
 a = "code"
-b ="wa.rs"
+b = "wa.rs"
 name = a + b
