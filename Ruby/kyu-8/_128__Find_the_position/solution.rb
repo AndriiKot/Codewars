@@ -1,3 +1,3 @@
-def position(latter)
-  "Position of alphabet: #{latter.ord - 96}"
+def position(letter)
+  "Position of alphabet: #{letter.ord - 96}"
 end
