@@ -30,7 +30,7 @@ end
 define_method_with_args :remove, :chomp, '!'
 
 p remove('!!HI!!')
-c
+
 
 def define_method_with_args(name, target_method, arg=nil)
   define_method(name) do |value|
