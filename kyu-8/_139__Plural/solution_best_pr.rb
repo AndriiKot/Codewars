@@ -1,0 +1,1 @@
+def plural(n) = n != 1
