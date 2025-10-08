@@ -1,4 +1,5 @@
 import { readdirSync, readFileSync, statSync, writeFileSync, unlinkSync, renameSync, existsSync } from 'node:fs';
+
 import { join, resolve, dirname } from 'node:path';
 
 const rootPath = '../';
