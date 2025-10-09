@@ -1,7 +1,7 @@
 # [AndriiKot](https://www.codewars.com/users/AndriiKot) 
 ## SQL
 
-##### As of 2025-10-09 21:00:26 uploaded:
+##### As of 2025-12-16 09:59:31 uploaded:
 
 #### SQL rank: 5 kyu
 
