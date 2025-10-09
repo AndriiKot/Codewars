@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 import { readdirSync, statSync, writeFileSync, unlinkSync, renameSync, existsSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
 

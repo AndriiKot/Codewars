@@ -1,3 +1,4 @@
+/* eslint-disable max-lines, no-control-regex */
 import { readdirSync, readFileSync, statSync, writeFileSync, unlinkSync, renameSync, existsSync } from 'node:fs';
 
 import { join, resolve, dirname } from 'node:path';
@@ -100,11 +101,12 @@ function deleteIfExists(dir, fileName) {
 }
 
 // 🔹 Переименование папки задачи
+// 🔹 Переименование папки задачи (с очисткой недопустимых символов)
 function renameTaskFolder(taskPath, slug) {
   const parentDir = dirname(taskPath);
-  const folderName = taskPath.split(/[/\\]/).pop(); // имя текущей папки, например "_001__Even_Or_Odd"
+  const folderName = taskPath.split(/[/\\]/).pop(); // текущее имя папки
 
-  // Разделяем на 2 части: "_001__" и "Even_Or_Odd"
+  // Разделяем на "_001__" и "Even_Or_Odd"
   const match = folderName.match(/^(_+\d+__)(.*)$/);
   if (!match) {
     console.warn(`⚠️ Пропущено: ${folderName} — формат не соответствует _001__...`);
@@ -112,14 +114,22 @@ function renameTaskFolder(taskPath, slug) {
   }
 
   const [, prefix] = match;
-  const newFolderName = `${prefix}${slug}`;
+
+  // Очистка недопустимых символов для имени папки
+  const sanitizedSlug = slug
+    .replace(/[<>:"/\\|?*\x00-\x1F]/g, '') // удаляем запрещённые в Windows символы
+    .replace(/\s+/g, '_') // пробелы → _
+    .replace(/[.]+$/g, '') // удаляем точки в конце
+    .trim();
+
+  const newFolderName = `${prefix}${sanitizedSlug}`;
   const newPath = join(parentDir, newFolderName);
 
   try {
     renameSync(taskPath, newPath);
     console.log(`📁 Папка переименована:\n   ${folderName} → ${newFolderName}`);
   } catch (err) {
-    console.error(`Ошибка при переименовании ${folderName}:`, err.message);
+    console.error(`❌ Ошибка при переименовании ${folderName}:`, err.message);
   }
 }
 
