@@ -1,0 +1,23 @@
+# BASICS: Length based SELECT  with LIKE
+
+**Rank:** 7 kyu  
+**Category:** reference  
+**URL:** [https://www.codewars.com/kata/5a8d94d3ba1bb569e5000198](https://www.codewars.com/kata/5a8d94d3ba1bb569e5000198)
+
+---
+
+## 📝 Description
+
+You will need to create SELECT statement in conjunction with LIKE.
+
+Please list people which have first_name with at least 6 character long
+
+
+### names table schema
+- id
+- first_name
+- last_name
+
+### results table schema
+- first_name
+- last_name

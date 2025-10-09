@@ -1,0 +1,48 @@
+# Filtering Films by Special Features in PostgreSQL: Part 3
+
+**Rank:** 7 kyu  
+**Category:** reference  
+**URL:** [https://www.codewars.com/kata/6456759b00c6791f4342bf18](https://www.codewars.com/kata/6456759b00c6791f4342bf18)
+
+---
+
+## 📝 Description
+
+Write a PostgreSQL query that selects `film_id`, the `title` and `special_features` columns from the film table in the DVD rental database, and returns films that have either "Deleted Scenes" or "Behind the Scenes" as a special feature, but not both - meaning that if there are "Deleted Scenes", there should not be "Behind the Scenes" and vice versa. The query should also exclude films that have "Commentaries" as a special feature.
+
+##### Notes:
+
+*  for the sample tests, static dump of [DVD Rental Sample Database](http://www.postgresqltutorial.com/postgresql-sample-database/) is used, for the final solution - random tests.
+* The result should be order by title alphabetically, if title is the same - then by film_id in asc order.
+* `special_features` is the `text[]` type. It represents a one-dimensional array of values, where each value is of the text data type.
+
+### Schema:
+
+#### `film` table:
+```
+Column            | Type      | Modifiers
+------------------+-----------+-----------
+film_id           | integer   | not null
+title             | varchar   | not null
+description       | text      | not null
+release_year      | integer   | not null
+language_id       | integer   | not null 
+rental_duration   | integer   | not null
+rental_rate       | numeric   | not null
+length            | integer   | not null
+replacement_cost  | numeric   | not null
+rating            | varchar   | not null
+last_update       | timestamp | not null
+special_features  | text[]    | not null
+```
+
+### Desired Output
+
+The desired output should look like this:
+```
+film_id | title                             | special_features                       |
+--------+-----------------------------------+----------------------------------------|
+   32   | A Shawshank Redemption            | {Trailers, Deleted Scenes}             | 
+   14   | Monty Python and the Holy Grail   | {Trailers, Deleted Scenes}             |
+...
+```
