@@ -1,8 +1,0 @@
-Input data is available from 
-the table cycling, which 
-has 2 columns: id and hours. 
-For each row, you have to return 
-3 columns: id, hours and 
-liters (not litres, it's a 
-difference from the kata description)
-
