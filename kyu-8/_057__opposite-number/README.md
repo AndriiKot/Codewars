@@ -8,7 +8,7 @@
 
 ## 📝 Description
 
-Very simple, given a number (integer / decimal / both depending on the language), find its opposite (additive inverse).
+Very simple, given a number, find its opposite (additive inverse).
 
 Examples:
 ```

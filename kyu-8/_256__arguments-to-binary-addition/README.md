@@ -36,5 +36,6 @@ arr2bin([1,2,'a']) == '11'
 arr2bin([]) == '0'
 ```
 
+Return `"NaN"`  if the sum of all numbers is `NaN`.
 
 This is a modification on the Kata: `Array2Binary addition` hope you like it
