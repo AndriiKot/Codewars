@@ -16,4 +16,6 @@ As an added challenge, upper- and lowercase letters are considered the **same ch
 
 If a string contains *all repeating characters*, it should return an empty string (`""`);
 
+
+
 <sup>†</sup> Note: the function is called `firstNonRepeatingLetter` for historical reasons, but your function should handle any Unicode character.

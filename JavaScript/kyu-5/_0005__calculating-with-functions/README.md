@@ -64,8 +64,15 @@ four(plus(nine))     ==  13
 eight(minus(three))  ==   5
 six(dividedBy(two))  ==   3
 ```
+```rust
+seven!(times(five!()))   // must return 35
+four!(plus(nine!()))     // must return 13
+eight!(minus(three!()))  // must return 5
+six!(divided_by(two!())) // must return 3
+```
 
 Requirements:
+
 
 
 
@@ -102,4 +109,7 @@ eight (divided-by (three))
 ```
 ```scala
 eight(dividedBy(three))
+```
+```rust
+eight!(divided_by(three!()));
 ```

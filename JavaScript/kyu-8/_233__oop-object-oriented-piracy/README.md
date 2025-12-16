@@ -24,6 +24,12 @@ class Ship {
   }
 }
 ```
+```coffeescript
+class Ship
+  constructor: (draft, crew) ->
+    @draft = draft
+    @crew = crew
+```
 ```python
 class Ship:
     def __init__(self, draft, crew):
@@ -77,6 +83,9 @@ Every time your spies see a new ship enter the dock, they will create a new ship
 ```javascript
 const titanic = new Ship(15, 10);
 ```
+```coffeescript
+titanic = new Ship(15, 10)
+```
 ```python
 Titanic = Ship(15, 10)
 ```
@@ -105,6 +114,9 @@ Add the method
 ```javascript
 isWorthIt
 ``` 
+```coffeescript
+isWorthIt
+``` 
 ```python
 is_worth_it
 ``` 
@@ -125,6 +137,9 @@ to decide if the ship is worthy to loot. For example:
 
 ```javascript
 titanic.isWorthIt() // return false
+```
+```coffeescript
+titanic.isWorthIt() # return false
 ```
 ```python
 Titanic.is_worth_it()
