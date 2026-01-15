@@ -2,7 +2,7 @@
 
 ## [CodeWars Profile](https://www.codewars.com/users/AndriiKot)
 
-#### As of 2026-01-11 23:05:50 uploaded:
+#### As of 2026-01-15 15:27:37 uploaded:
 
 ### General Statistics
 
@@ -12,7 +12,7 @@
 
 #### Score: 1653
 
-#### Leaderboard Position: 16252
+#### Leaderboard Position: 16273
 
 #### Total Completed Kata: 514
 
